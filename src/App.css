@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /*========== Colors ==========*/
-    /*Color mode HSL(hue, saturation, lightness)*/
+    /*Modo de cor HSL(hue, saturation, lightness)*/
     --hue: 0;
     --sat: 0%;
     --title-color: hsl(var(--hue), var(--sat), 20%);
@@ -15,7 +15,7 @@
     --body-color: hsl(var(--hue), var(--sat), 98%);
     --container-color: #fff;
 
-    /*========== Font and typography ==========*/
+    /*========== Fonte e tipografia  ==========*/
     --body-font: "Poppins", sans-serif;
 
     /*.5rem = 8px | 1rem = 16px ...*/
@@ -28,7 +28,7 @@
     --smaller-font-size: 0.813rem;
     --tiny-font-size: 0.625rem;
 
-    /*========== Font weight ==========*/
+    /*========== Espessura da fonte ==========*/
     --font-normal: 400;
     --font-medium: 500;
     --font-semi-bold: 600;
@@ -74,6 +74,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Padrão */
 body,
 button,
 input,
