@@ -1,0 +1,101 @@
+/* Conatiner pai sobre mim*/
+.sobre__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+/* Imgaem perfil*/
+.sobre__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+/* Informações posicionamentos - Experiência Concluído e Suporte*/
+.sobre__informacoes {
+    grid-template-columns: repeat(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+/* boxs de cada Experiência Concluído e Suporte */
+.sobre__box {
+    background-color: var(--container-color);
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+}
+
+/* Tamanho e cor dos icones Experiência Concluído e Suporte */
+.sobre__icon {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+/* Tmanho dos texto da box -1 Ano de conhecimento, 15 + Porjetos e On-line 24/7  */
+.sobre__title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+/* Sub titulo - Fonte*/
+.sobre__subtitle {
+    font-size: var(--tiny-font-size);
+}
+
+.sobre__descricao {
+    padding: 0 4rem 0 0;
+    margin-bottom: var(--mb-2);
+}
+/*============================== Responsividade ==============================*/
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .sobre__container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .sobre__img {
+        width: 220px;
+    }
+
+    .sobre__box {
+        padding: 0.75rem 0.5rem;
+    }
+
+    /* linhamento do container pai do boz e title e sub title */
+    .sobre__data {
+        text-align: center;
+    }
+
+    .sobre__informacoes {
+        justify-content: center;
+    }
+
+    .sobre__descricao {
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+    .sobre__informacoes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .sobre__descricao {
+        padding: 0;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .sobre__informacoes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
