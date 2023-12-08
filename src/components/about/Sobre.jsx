@@ -16,12 +16,13 @@ const Sobre = () => {
               <div className="sobre__data">
                   <Informacoes />
 
-                  <p className="sobre__descricao">texto
+                  <p className="sobre__descricao">Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
                   </p>
 
-                  <a download="" href={CV} className="button 
-                  button--flex">Baixar Currículo
-                    <svg
+                  <a download="" href={CV} className="buttonDowanload
+                  button--flex"><span class="button-text">Download</span>
+                  <div className="icon-container">
+                  <svg
                       class="button__icon"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -46,6 +47,12 @@ const Sobre = () => {
                         fill="var(--container-color)"
                       ></path>
                     </svg>
+                    <div class="loading-background">
+                      <i class='bx bx-download'></i>
+                      <i class='bx bx-check'></i>
+                    </div>
+
+                  </div>
                   </a>
               </div>
           </div>

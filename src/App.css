@@ -48,6 +48,15 @@
     --z-tooltip: 10;
     --z-fixed: 100;
     --z-modal: 1000;
+
+    /* ========= Btn Download ========= */
+    --background: #242836;
+    --rectangle: #1c212e;
+    --success: #ffffff33;
+    --text: #fff;
+    --arrow: #fff;
+    --checkmark: #fff;
+    --shadow: rgba(10, 22, 50, 0.24);
 }
 
 /* Responsive typography */
