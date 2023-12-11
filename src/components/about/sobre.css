@@ -1,15 +1,17 @@
+/* Conatiner pai */
 .sobre__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 1rem;
 }
 
-/* Imgaem perfil*/
+/* Imgaem perfil
 .sobre__img {
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
 }
+*/
 
 /* Informações posicionamentos - Experiência Concluído e Suporte*/
 .sobre__informacoes {
@@ -18,13 +20,115 @@
     margin-bottom: var(--mb-2);
 }
 
-/* boxs de cada Experiência Concluído e Suporte */
+.sobre__informacoes > :nth-child(n + 3) {
+    grid-row: 2;
+    width: 140px;
+}
+
+.sobre__informacoes > :nth-child(1),
+.sobre__informacoes > :nth-child(1) {
+    grid-column: 2 / span 1;
+    width: 140px;
+}
+
+/* boxs de cada Experiência Concluído e Suporte*/
 .sobre__box {
     background-color: var(--container-color);
     border: 1px solid rgb(0, 0, 0, 0.1);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+}
+
+/* Roman Number - Container pai Icone Romano - Estilos para o número romano dentro do círculo */
+.sobre__roman-number {
+    position: relative;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border: 2px solid #757575;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--title-color);
+    margin-bottom: 8px;
+}
+/* Roman Number - Icone Romano afeta os dois "-" "-" - Estilos para as linhas dentro do círculo*/
+.sobre__roman-number::after,
+.sobre__roman-number::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--title-color);
+}
+
+/* Roman Number - Icone Romano "-" after*/
+.sobre__roman-number::after {
+    top: 16px;
+    width: 15px;
+    height: 2px;
+}
+
+/* Roman Number - Icone Romano "-" before*/
+.sobre__roman-number::before {
+    top: 5px;
+    width: 15px;
+    height: 2px;
+}
+
+/* Box de Skill que estão com icones de hard skill perto do sobre mim*/
+.sobre__skillSetBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: var(--container-color);
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+}
+/* Cor da letra ao passar o mouse por cima - HTML - Css- JS */
+.sobre__skillSetBox .html-icon:hover {
+    color: #e34c26;
+}
+
+.sobre__skillSetBox .css-icon:hover {
+    color: #1572b6;
+}
+
+.sobre__skillSetBox .javascript-icon:hover {
+    color: #f7df1e;
+}
+
+.sobre__skillSetBox .vuejs-icon:hover {
+    color: #4fc08d;
+}
+
+.sobre__skillSetBox .react-icon:hover {
+    color: #61dafb;
+}
+
+.sobre__skillSetBox .bootstrap-icon:hover {
+    color: #563d7c;
+}
+
+/* Box de Skill **ICONES  Skill Hards*** que estão com icones de hard skill perto do sobre mim*/
+.sobre__iconskillSetBox {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-size: var(--tiny-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.sobre__iconskillSetBox::before {
+    font-size: 1.5rem; /* Tamanho do ícone */
 }
 
 /* Tamanho e cor dos icones Experiência Concluído e Suporte */
@@ -45,9 +149,14 @@
     font-size: var(--tiny-font-size);
 }
 
-.sobre__descricao {
-    padding: 0 4rem 0 0;
+.sobre__data {
     margin-bottom: var(--mb-2);
+}
+
+.sobre__descricao {
+    padding: 0 0.75rem 0 0;
+    margin-bottom: 0.7rem;
+    margin-top: -0.5rem;
 }
 /* ====================== Aquiiiiiii =====================*/
 .icon-container {
@@ -67,6 +176,12 @@
     font-weight: var(--font-medium);
     overflow: hidden;
 }
+/* Preencher o btn Dowanload */
+.buttonDowanload:hover,
+.buttonDowanload:hover .button-text,
+.buttonDowanload:hover .icon-container {
+    background-color: var(--title-color-dark);
+}
 
 /* Cor do texto btn Download */
 .button-text {
@@ -84,7 +199,8 @@
     transition: opacity 0.2s ease;
 }
 
-.button__icon {
+/* Icone do Cv Download*/
+.button__iconCv {
     display: block;
     position: absolute;
     width: 20px;
@@ -157,10 +273,6 @@
         row-gap: 2.5rem;
     }
 
-    .sobre__img {
-        width: 220px;
-    }
-
     .sobre__box {
         padding: 0.75rem 0.5rem;
     }
@@ -184,6 +296,21 @@
 @media screen and (max-width: 576px) {
     .sobre__informacoes {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .sobre__informacoes {
+        grid-template-columns: repeat(2, 1fr); /* 140px */
+    }
+
+    .sobre__informacoes > :nth-child(n + 3) {
+        grid-row: unset;
+        width: 100%; /* 140px */
+    }
+
+    /* Remover a restrição de grid-column */
+    .sobre__informacoes > :nth-child(1),
+    .sobre__informacoes > :nth-child(2) {
+        grid-column: unset;
+        width: 100%;
     }
 
     .sobre__descricao {

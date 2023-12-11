@@ -15,6 +15,43 @@
     column-gap: 1rem;
 }
 
+/* Container do logo para os "<" "/"  ">" na logo */
+.logo-text {
+    display: flex;
+    align-items: center;
+    background: #cf0c13;
+    background: repeating-linear-gradient(
+        90deg,
+        #cf0c13 0,
+        #ff0a95 50%,
+        #ff5724
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Estilize o segundo elemento  " < " */
+.logo-text tspan:nth-child(1) {
+    font-size: 20px;
+    fill: red;
+}
+
+/* Estilize o segundo elemento  " / " */
+.logo-text tspan:nth-child(2) {
+    margin-left: 0.5rem;
+}
+
+/* Estilize o segundo elemento  " > " */
+.logo-text tspan:nth-child(3) {
+    font-size: 20px;
+}
+/*
+.logo-text tspan:nth-child(1),
+.logo-text tspan:nth-child(2),
+.logo-text tspan:nth-child(3) {
+}
+*/
+
 .nav__logo,
 .nav__toggle {
     color: var(--title-color);

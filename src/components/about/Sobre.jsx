@@ -11,19 +11,27 @@ const Sobre = () => {
           <span className="section__subtitle">Minha Apresentação</span>
 
           <div className="sobre__container container grid">
-              <img src={Sobreimg} alt="" className="sobre__img" />
+            <Informacoes />
 
               <div className="sobre__data">
-                  <Informacoes />
 
                   <p className="sobre__descricao">Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
                   </p>
 
+                  <div className="sobre__skillSetBox">
+                    <i class='bx bxl-html5 sobre__iconskillSetBox html-icon'>HTML</i>
+                    <i class='bx bxl-css3 sobre__iconskillSetBox css-icon'>CSS</i>
+                    <i class='bx bxl-javascript sobre__iconskillSetBox javascript-icon'>JavaScript</i>
+                    <i class='bx bxl-vuejs sobre__iconskillSetBox vuejs-icon'>Vue.js</i>
+                    <i class='bx bxl-react sobre__iconskillSetBox react-icon'>React</i>
+                    <i class='bx bxl-bootstrap sobre__iconskillSetBox bootstrap-icon'>Bootstrap</i>
+                  </div>
+      
                   <a download="" href={CV} className="buttonDowanload
                   button--flex"><span class="button-text">Download</span>
                   <div className="icon-container">
                   <svg
-                      class="button__icon"
+                      class="button__iconCv"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -47,6 +55,7 @@ const Sobre = () => {
                         fill="var(--container-color)"
                       ></path>
                     </svg>
+                    
                     <div class="loading-background">
                       <i class='bx bx-download'></i>
                       <i class='bx bx-check'></i>
@@ -54,6 +63,7 @@ const Sobre = () => {
 
                   </div>
                   </a>
+                  
               </div>
           </div>
        </section>
