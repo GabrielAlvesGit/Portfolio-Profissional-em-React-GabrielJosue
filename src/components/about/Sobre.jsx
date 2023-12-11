@@ -15,7 +15,7 @@ const Sobre = () => {
 
               <div className="sobre__data">
 
-                  <p className="sobre__descricao">Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
+                  <p className="sobre__descricao">Frontend developer, I create web pages with UI / UX user interface.
                   </p>
 
                   <div className="sobre__skillSetBox">
