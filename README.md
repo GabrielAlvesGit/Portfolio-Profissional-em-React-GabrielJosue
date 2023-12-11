@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+<h1 align="center">
+  <a href="https://portfolio-profissional-em-react-gabriel-josue-boo1.vercel.app/">website view</a>
+</h1>
+
 ## 🔎 Instruções de Como usar
 
 
@@ -33,4 +37,5 @@ $ npm start
 
 ## 💻 Layout Node.js
 
-![image](https://github.com/GabrielAlvesGit/Portfolio-Profissional-em-React-GabrielJosue/assets/102634725/cbbc74c7-5d32-4b6b-898e-a201fc4fa1e2)
+![image](https://github.com/GabrielAlvesGit/Portfolio-Profissional-em-React-GabrielJosue/assets/102634725/1cbe9d25-ed0a-4b84-b436-fd9d0829254b)
+
