@@ -35,7 +35,7 @@ $ npm start
 </pre>
 
 
-## 💻 Layout Node.js
+## 💻 Layout React.js
 
 ![image](https://github.com/GabrielAlvesGit/Portfolio-Profissional-em-React-GabrielJosue/assets/102634725/1cbe9d25-ed0a-4b84-b436-fd9d0829254b)
 
