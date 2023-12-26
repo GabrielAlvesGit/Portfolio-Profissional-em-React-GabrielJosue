@@ -7,7 +7,7 @@ import Informacoes from "./Informacoes"
 const Sobre = () => {
     return (
        <section className="sobre section" id="sobre">
-          <h2 className="section__title" >Sobre Mim</h2>
+          <h2 className="section__title" >Sobre mim</h2>
           <span className="section__subtitle">Minha Apresentação</span>
 
           <div className="sobre__container container grid">
