@@ -17,7 +17,7 @@
 .sobre__informacoes {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
-    margin-bottom: var(--mb-2);
+    margin-bottom: 0.56rem;
 }
 
 .sobre__informacoes > :nth-child(n + 3) {
@@ -38,6 +38,11 @@
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
+}
+
+.sobre__box:hover {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Roman Number - Container pai Icone Romano - Estilos para o número romano dentro do círculo */
@@ -155,7 +160,7 @@
 
 .sobre__descricao {
     padding: 0 0.75rem 0 0;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.4rem;
     margin-top: -0.5rem;
 }
 /* ====================== Aquiiiiiii =====================*/
@@ -289,6 +294,11 @@
     .sobre__descricao {
         padding: 0 5rem;
         margin-bottom: 2rem;
+        margin-top: 0;
+    }
+
+    .sobre__skillSetBox {
+        margin-bottom: 1rem;
     }
 }
 
