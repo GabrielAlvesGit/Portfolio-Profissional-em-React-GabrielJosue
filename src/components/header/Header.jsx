@@ -39,19 +39,19 @@ const Header = () =>{
                     </li>
 
                     <li className="nav__item">
-                        <a href="#project" className="nav__link">
+                        <a href="#projetos" className="nav__link">
                           <i className="uil uil-briefcase-alt nav__icon"></i> Projetos
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#potfolio" className="nav__link">
-                          <i className="uil uil-scenery nav__icon"></i> Portfolio
+                        <a href="#footer" className="nav__link">
+                          <i className="uil uil-scenery nav__icon"></i> Rodapé
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#contact" className="nav__link">
+                        <a href="#contato" className="nav__link">
                           <i className="uil uil-message nav__icon"></i> Contato
                         </a>
                     </li>

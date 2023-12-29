@@ -5,7 +5,7 @@ import Projects from "./Projects";
 
 const Project = () => {
   return(
-    <section className="project section" id="project">
+    <section className="project section" id="projetos">
       <h2 className="section__title" >Projetos</h2>
       <span className="section__subtitle">Meus recentes projetos</span>
 

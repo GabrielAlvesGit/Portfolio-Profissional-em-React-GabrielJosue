@@ -1,0 +1,167 @@
+.contato__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+}
+
+.contato__title {
+    text-align: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+}
+
+.contato__info {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+}
+
+/* Card de cada um em Get in touch - Talk to me - Email.. */
+.contato__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.contato__card:hover {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Icones de cada card em Get in touch - Talk to me - Email..*/
+.contato__card-icon {
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-25);
+}
+
+/* Subtitulos nos card em Get in touch - Talk to me - Email..*/
+.contato__card-title,
+.contato__card-data {
+    font-size: var(--small-font-size);
+}
+
+.contato__card-title {
+    font-weight: var(--font-medium);
+}
+
+.contato__card-data {
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
+/* Hyper links de contatos */
+.contato__button {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.contato__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+/*.contato__button:hover .contato__button-icon*/
+.contato__card:hover .contato__button-icon {
+    transform: translate(0.25rem);
+}
+
+.contato__form {
+    width: 360px;
+}
+
+.contato__form-div {
+    position: relative;
+    margin-bottom: var(--mb-2-5);
+    height: 4rem;
+}
+
+/* Input de contatos */
+.contato__form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: none;
+    color: var(--title-color);
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+/* Label de contato*/
+.contato__form-tag {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: var(--small-font-size);
+    padding: 0.25rem;
+    background-color: var(--body-color);
+    z-index: 10;
+}
+
+/* Campor de *Assunto* em contato*/
+.contato__form-area {
+    height: 11rem;
+}
+/* Campor de *Assunto* em contato none*/
+.contato__form-area textarea {
+    resize: none;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .contato__container {
+        column-gap: 3rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .contato__container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contato__info {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        justify-content: center;
+    }
+
+    .contato__form {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .contato__info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contato__info {
+        grid-template-columns: 1fr;
+    }
+
+    .contato__form {
+        width: 100%;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+}

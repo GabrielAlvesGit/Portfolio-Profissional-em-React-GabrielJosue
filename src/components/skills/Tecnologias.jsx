@@ -49,7 +49,7 @@ const Tecnologias = () => {
                   <i class='bx bx-badge-check'></i>
 
                   <div>
-                    <h3 className="habilidades__name">Bootstrap</h3>
+                    <h3 className="habilidades__name">Django</h3>
                     <span className="habilidades__level">Básico</span>
                   </div>
                 </div>
@@ -58,8 +58,8 @@ const Tecnologias = () => {
                   <i class='bx bx-badge-check'></i>
 
                   <div>
-                    <h3 className="habilidades__name">Git</h3>
-                    <span className="habilidades__level">Básico</span>
+                    <h3 className="habilidades__name">Canva</h3>
+                    <span className="habilidades__level">Intermediário</span>
                   </div>
                 </div>
 
@@ -67,10 +67,19 @@ const Tecnologias = () => {
                   <i class='bx bx-badge-check'></i>
 
                   <div>
-                    <h3 className="habilidades__name">Angula</h3>
-                    <span className="habilidades__level">Básico</span>
+                    <h3 className="habilidades__name">Microsoft Teams</h3>
+                    <span className="habilidades__level">Intermediário</span>
                   </div>
-                </div>             
+                </div> 
+
+                <div className="habilidades__data">
+                  <i class='bx bx-badge-check'></i>
+
+                  <div>
+                    <h3 className="habilidades__name">Entre outros</h3>
+                    <span className="habilidades__level"></span>
+                  </div>
+                </div>              
               </div>
           </div>
       </div>
