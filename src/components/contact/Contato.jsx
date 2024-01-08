@@ -54,7 +54,7 @@ const Contato = () => {
               <h3 className="contato__card-title">Email</h3>
               <span className="contato__card-data">gabrielalves.-100@hotmail.com</span>
 
-              <a href="mailto:gabrielalves.-100@gmail.com" className="contato__button">Write me {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
+              <a href="mailto:gabrielalves.-100@gmail.com" className="contato__button">Envie e-mail {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
             </div>
 
             <div className="contato__card">
@@ -63,7 +63,7 @@ const Contato = () => {
               <h3 className="contato__card-title">Whatsapp</h3>
               <span className="contato__card-data">(11) 97806-4552</span>
 
-              <a href="https://wa.me/5511978064552" className="contato__button">Write me {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
+              <a href="https://wa.me/5511978064552" className="contato__button">Envie Whatsapp {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
             </div>
 
             <div className="contato__card">
@@ -72,7 +72,7 @@ const Contato = () => {
               <h3 className="contato__card-title">Instagram</h3>
               <span className="contato__card-data">@gabrielalves.s</span>
 
-              <a href="https://www.instagram.com/gabrielalves.s" className="contato__button">Write me {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
+              <a href="https://www.instagram.com/gabrielalves.s" className="contato__button">Instagram {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
             </div>
 
           </div>

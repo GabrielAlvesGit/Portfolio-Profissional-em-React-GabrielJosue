@@ -8,6 +8,8 @@ import Project from "./components/project/Project";
 import Qualificacao from "./components/qualification/Qualificacao";
 import Contato from "./components/contact/Contato";
 import Footer from "./components/footer/Footer";
+import ScrollUp from "./components/scrollup/ScrollUp";
+import Themes from "./components/theme/Themes";
 
 const App = () => {
     return (
@@ -15,14 +17,16 @@ const App = () => {
             <Header />
 
             <main className="main">
+                <Themes />
                 <Home />
                 <Sobre />
                 <Habilidades />
                 <Project />
                 <Qualificacao />
                 <Contato />
-                <Footer />
             </main>
+            <Footer />
+            <ScrollUp />
         </>
     );
 };

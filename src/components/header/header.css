@@ -89,6 +89,11 @@
     color: var(--title-color-dark);
 }
 
+/* Change backgroud header */
+.scroll-header {
+    box-shadow: var(--boxShadow-header);
+}
+
 /*=============== BREAKPOINTS ===============*/
 @media screen and (max-width: 768px) {
     .header {

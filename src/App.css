@@ -57,6 +57,15 @@
     --arrow: #fff;
     --checkmark: #fff;
     --shadow: rgba(10, 22, 50, 0.24);
+
+    /* ========= Switcher Titulo ========= */
+    --title-switcher: #666666;
+
+    /* ========= Shadow Header ========= */
+    --boxShadow-header: 0 -1px 4px rgb(0, 0, 0, 0.15);
+
+    /* ========= Shadow Home img Perfil ========= */
+    --box-shadow-home-img: inset 0 0 0 9px rgb(51 51 51/ 80%);
 }
 
 /* Responsive typography */
@@ -70,6 +79,18 @@
         --small-font-size: 0.813rem;
         --smaller-font-size: 0.75rem;
     }
+}
+
+/*=============== Tema Dark ===============*/
+.dark-theme {
+    --title-color: hsl(0, 0%, 100%);
+    --title-color-dark: hsl(0, 0%, 80%);
+    --text-color: hsl(0, 0%, 60%);
+    --container-color: hsl(0, 1%, 17%);
+    --body-color: hsl(0, 0%, 15%);
+    --title-switcher: hsl(0, 0%, 100%);
+    --arrow: hsl(0, 0%, 60%);
+    --boxShadow-header: 0 -1px 4px rgba(255, 253, 253, 0.15);
 }
 
 /*=============== BASE ===============*/

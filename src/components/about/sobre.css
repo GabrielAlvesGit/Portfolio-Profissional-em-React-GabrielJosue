@@ -184,8 +184,10 @@
 /* Preencher o btn Dowanload */
 .buttonDowanload:hover,
 .buttonDowanload:hover .button-text,
-.buttonDowanload:hover .icon-container {
+.buttonDowanload:hover .icon-container,
+.buttonDowanload:hover .button__iconCv {
     background-color: var(--title-color-dark);
+    color: var(--arrow);
 }
 
 /* Cor do texto btn Download */
