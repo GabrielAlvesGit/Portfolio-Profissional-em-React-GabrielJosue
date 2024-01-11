@@ -1,0 +1,193 @@
+{
+  "translation":{
+
+    "__comment-header": "Past about - sobre.jsx",
+    "header": {
+      "home": "Home",
+      "sobre": "About",
+      "habilidades": "Skills",
+      "projetos": "Projects",
+      "rodapé": "Footer",
+      "contato": "Contact"
+    },
+
+    "__comment-dataHome": "Past home - data.jsx",
+    "dataHome": {
+      "subtitle": "Web Developer | Visual Design",
+      "description": "I'm Creative designer based in Brasil, and i'm very passionate and dedicated to my work"
+    },
+
+    "__comment-scrolllDownHome": "Past home - ScrolllDown.jsx",
+    "scrolllDownHome": {
+      "scrollName": "Scroll down"
+    },
+
+    "__comment-Sobre": "Past About - Sobre.jsx",
+    "sobre": {
+      "title": "About Me",
+      "subtitle": "My Presentation",
+      "descricao": "Frontend developer in the city of São Paulo, I create web pages with UI/UX user interface, I am currently studying Systems Analysis and Development - IFSP, seeking to improve both my “soft skills” and “hard skills”."
+    },
+
+    "__comment-informacoes": "Past About - Informacoes.jsx",
+    "informacoes": {
+      "titleIFSP": "IFSP",
+      "subtitleIFSP": "Analysis and Systems Dev",
+      
+      "titleLocalizacao": "Location",
+      "subtitleSP": "São Paulo/SP",
+
+      "titleSoftkillsI": "Soft kills",
+      "subtitleAprendizagem": "Learning",
+      "subtitleDesenvolvimento": "Development",
+      "subtitleAtitude": "Attitude",
+      "subtitlePrieValores": "Principles and Values"
+    },
+
+    "__comment-habilidades": "Past Skills - Habilidades.jsx",
+    "habilidades": {
+      "title": "Technical Skills",
+      "subtitle": "Level of technical proficiency"
+    },
+
+    "__comment-Frontendhabilidades": "Past Skills - Frontend.jsx",
+    "frontendhabilidades": {
+      "title": "Frontend Developer",
+      "levelBasico": "Basic",
+      "levelIntermediario": "Intermediate",
+      "levelAvancado": "Advanced"
+    },
+
+    "__comment-Backendhabilidades": "Past Skills - Backend.jsx",
+    "backendhabilidades": {
+      "title": "Backend Developer",
+      "levelBasico": "Basic",
+      "levelIntermediario": "Intermediate",
+      "levelAvancado": "Advanced"
+    },
+
+    "__comment-Tecnologiashabilidades": "Past Skills - Tecnologias.jsx",
+    "tecnologiashabilidades": {            
+      "title": "Technologies",
+      "levelBasico": "Basic",
+      "levelIntermediario": "Intermediate",
+      "levelAvancado": "Advanced",
+      "titleEntreoutros": "Among others"
+    },
+
+    "__comment-Project": "Past Skills - Project.jsx",
+    "project": {
+      "title": "Projects",
+      "subtitle": "My recent projects"
+    },
+
+    "__comment-Projects": "Past Skills - Projectsitem.jsx e Data.jsx - Projects Obs: Poderias usar o ID mas estou saudno o title deles para facilitar a leitura",
+    "projects": {
+      "ingressoja": {
+        "title": "Ticket",
+        "description": "Event website where users can choose a movie, play, or lecture of their preference - IFSP in 2023."
+      },
+      "ComenteSobre": {
+        "title": "CommentAbout",
+        "description": "Web system that allows users to comment on specific topics similar to a forum - IFSP in 2023."
+      },
+      "BusinessIA-PI": {
+        "title": "BusinessIA-PI",
+        "description": "Objective is to create a specialized website to meet the needs of Business.IA, Artificial Intelligence and Data Analysis, aligned with Marketing Strategies - IFSP in 2023."
+      },
+      "Ativa Investimentos": {
+        "title": "Activate Investments",
+        "description": "Used Vue.js and CSS to enhance my skills, developing a clone of the Ativa Investimentos company page for study purposes - in 2023."
+      },
+      "Calendário SUS": {
+        "title": "SUS Calendar",
+        "description": "Project challenge was to develop a calendar to assist patients through SUS with an online schedule - Senac in 2022."
+      },
+      "Redes Sociais": {
+        "title": "Social media",
+        "description": "Social media portfolio before the existence of tools like Linktree and ChatGPT, filling a gap that these tools currently occupy - Senac in 2022."
+      },
+      "Currículo Web": {
+        "title": "Web CV",
+        "description": "I developed my first comprehensive project to consolidate my knowledge acquired so far in 2022 - Senac."
+      },
+      "codigo":"Code",
+      "visitePag":"Visit the Page"
+    },
+
+    "__comment-ProjectsNav": " Opção de navegação do projeto - Past Skills - Projects.jsx",
+    "projectsNav": {
+      "todos": "All",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+
+    "__comment-Qualificação": "Past qualificação - Qualificação.jsx",
+    "qualificacao": {
+      "title": "Qualification",
+      "subtitle": "Academic Journey/Experience",
+
+      "qualificacao__buttonFormacao": "Academic formation",
+      "qualificacao__buttonExperiencia": "Experience",
+      
+      "titleFormacaoAnáliseSistemas": "Analysis and Systems Dev",
+      "subtitleInstitutoFederal": "Federal Institute of Education, Science, and Technology of São Paulo - IFSP - São Paulo/SP",
+      "calendarFormacaoAnáliseSistemas": " 09/2022 to 07/2025 - In progress",
+
+      "titleFormacaoTI": "Computer Technician",
+      "subtitleSenacBrasil": "Senac Brazil - \nSão Paulo/SP",
+      "calendarFormacaoTI": " 08/2020 to 05/2022 - Completed",
+
+      "titleFormacaoEnsinoMedio": "High School",
+      "subtitleEnsinoMedio": "Samuel Wainer State School - São Paulo/SP",
+      "calendarFormacaoEnsinoMedio": " 2017 - Completed",
+
+      "titleExperiênciaJVLogistica": "Young Apprentice in Logistics",
+      "subtitleExperiênciaMateriaFarmacia": "Material Prima Pharmacy de Manipulação Ltda - São Paulo/SP",
+      "calendarExperiênciaJVLogistica": " 09/2019 to 08/2020 - Completed",
+
+      "titleExperiênciaJVReposicao": "Young Apprentice in Restocking",
+      "subtitleExperiênciaAkkiAtacadista": "Akki Wholesale - \nSão Paulo/SP",
+      "calendarExperiênciaJVReposicao": " 07/2017 to 06/2018 - Completed"
+    },
+
+    "__comment-Contato": "Past contact - Contato.jsx",
+    "contato": {
+      "title": "Get in touch",
+      "subtitle": "Contact me",
+
+      "titleFaleComigo": "Talk to me",
+      "card-titleEmail": "Email",
+      "card-dataEmail": "gabrielalves.-100@hotmail.com",
+      "card-titleEnvieEmail": "Send email",
+
+      "titleWhatsapp": "Whatsapp",
+      "card-dataNum": "(11) 97806-4552",
+      "card-titleEnvieWhatsapp": "Send Whatsapp",
+
+      "titleInstagram": "Instagram",
+      "card-dataIns": "@gabrielalves.s",
+      "card-titleEnvieInst": "Instagram",
+
+      "titleContatoViaEmail": "Contact by email",
+      "labelForm-tagNome": "Name",
+      "placeholderNome": "Insert your name",
+
+      "labelForm-tagEmail": "Email",
+      "placeholderEmail": "Insert your email",
+
+      "labelForm-tagAssunto": "Subject:",
+      "placeholderAssunto": "Write about the subject",
+    
+      "buttonEnviarMensagem": "Send message"
+    },
+
+    "__comment-Footer": "Past footer - Footer.jsx",
+    "footer": {
+      "sobre": "About",
+      "projetos": "Projects",
+      "contato": "Contact"
+    }
+
+  }
+}

@@ -1,12 +1,16 @@
 import React from "react";
+// Importar o i18n para traduzir o texto
+import { useTranslation } from "react-i18next";
 
 const Projectsitems = ({ item }) => {
+  // Importar o i18n para traduzir o texto
+  const {t} = useTranslation();
   return (
     <div className="project__card" key={item.id}>
       <img src={item.image} alt="" className="project__img" />
-      <h3 className="project__title">{item.title}</h3>
+      <h3 className="project__title">{t(`projects.${item.title}.title`)}</h3>
 
-      <p className="project__description">{item.description}</p>
+      <p className="project__description">{t(`projects.${item.title}.description`)}</p>
 
       {/* Verifica se item.technologies está definido antes de mapear */}
       {item.technologies && item.technologies.length > 0 && (
@@ -22,13 +26,13 @@ const Projectsitems = ({ item }) => {
       <div className="project__container-link">
         {item.pageLink && (
           <a href={item.pageLink} className="project__button">
-            Visite a Página <i className="bx bx-link-external project__button-icon"></i>
+            {t("projects.visitePag")} <i className="bx bx-link-external project__button-icon"></i>
           </a>
         )}
 
         {item.codeLink && (
           <a href={item.codeLink} className="project__button">
-            Código <i className="bx bxl-github project__button-icon"></i>
+            {t("projects.codigo")} <i className="bx bxl-github project__button-icon"></i>
           </a>
         )}
       </div>

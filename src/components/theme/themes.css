@@ -18,7 +18,8 @@
 
 .style__switcher,
 .style__switcher-toggler,
-.theme__toggler {
+.theme__toggler,
+.theme_language {
     border-radius: 5px 0px 0px 5px;
 }
 
@@ -42,7 +43,7 @@
 .style__switcher-title {
     font-size: var(--small-font-size);
     font-weight: var(--font-semi-bold);
-    border-bottom: 1px solid hsl(0, 0%, 87%);
+    border-bottom: var(--border-bottom-switcher);
     padding-bottom: 5px;
     margin-bottom: 15px;
     text-align: right;
@@ -61,7 +62,8 @@
 }
 
 .style__switcher-toggler,
-.theme__toggler {
+.theme__toggler,
+.theme_language {
     position: absolute;
     right: 100%;
     background-color: var(--text);
@@ -76,7 +78,8 @@
 }
 
 .show-switcher .style__switcher-toggler,
-.show-switcher .theme__toggler {
+.show-switcher .theme__toggler,
+.show-switcher .theme_language {
     right: -100%;
 }
 
@@ -86,6 +89,76 @@
 
 .theme__toggler {
     bottom: 10%;
+}
+
+/*================= Language Styler -> Pasta: I18n/LanguageSwitcher.jsx ================*/
+/* Item language*/
+.theme_language {
+    bottom: -33%;
+}
+
+.theme_language .language-switcher__button {
+    background: none;
+    border: none;
+}
+
+.language__switcher-languageName,
+.language__switcher-selectYourLanguage {
+    color: red;
+    font-size: 0.6rem;
+}
+
+.language__switcher-selectYourLanguage {
+    display: none;
+}
+
+.language-switcher:hover .language__switcher-selectYourLanguage {
+    display: inline;
+    padding: 0.66rem;
+    color: #fff;
+    font-size: 0.66rem;
+    background-color: #292929;
+    border-radius: 0.5rem;
+    border: none;
+    position: absolute;
+    top: 0.3rem;
+    right: 4rem;
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.4s ease;
+}
+
+.language-switcher:hover .language__switcher-selectYourLanguage::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    right: -10.5px;
+    transform: translateY(-50%);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #292929;
+}
+
+.language-switcher:hover .language__switcher-selectYourLanguage {
+    opacity: 1;
+}
+
+.language__switcher-img {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -1px;
+    max-width: 100%;
+}
+
+.language-switcher__button.selected img.language__switcher-img {
+    display: none;
+}
+
+.language-switcher__button.selected span.language__switcher-languageName {
+    display: block;
 }
 
 .style__switcher-close {
@@ -104,13 +177,19 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
     .style__switcher-toggler,
-    .theme__toggler {
+    .theme__toggler,
+    .theme_language {
         height: 45px;
         width: 45px;
         font-size: 1rem;
     }
+
     .style__switcher-toggler {
         top: 20%;
+    }
+
+    .theme_language {
+        bottom: -30%;
     }
 }
 
@@ -121,7 +200,8 @@
     }
 
     .style__switcher-toggler,
-    .theme__toggler {
+    .theme__toggler,
+    .theme_language {
         height: 40px;
         width: 40px;
         font-size: 0.75rem;
@@ -129,5 +209,17 @@
 
     .style__switcher-toggler {
         top: 25%;
+    }
+
+    .theme_language {
+        bottom: -25%;
+    }
+
+    .language__switcher-img {
+        width: 12px;
+        height: 12px;
+
+        margin-top: 1px;
+        margin-bottom: -1px;
     }
 }

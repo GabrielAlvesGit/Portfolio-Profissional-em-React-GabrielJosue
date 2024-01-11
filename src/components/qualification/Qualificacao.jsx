@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import "./qualificacao.css";
+// Importar o i18n para traduzir o texto
+import { useTranslation } from "react-i18next";
 
 const Qualificacao = () => {
   const [toggleState, setToggleState] = useState(1);
+  // Importar o i18n para traduzir o texto
+  const {t} = useTranslation();
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -10,11 +14,12 @@ const Qualificacao = () => {
 
   return (
     <section className="qualificacao section" id="sobre">
-      <h2 className="section__title">Qualificação</h2>
-      <span className="section__subtitle">Jornada Acadêmica/Experiência</span>
+      <h2 className="section__title">{t('qualificacao.title')}</h2>
+      <span className="section__subtitle">{t('qualificacao.subtitle')}</span>
 
       <div className="qualificacao__container container">
         <div className="qualificacao__tabs">
+           {/* title btn Formação acadêmica */}
           <div
             className={
               toggleState === 1
@@ -23,9 +28,11 @@ const Qualificacao = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-graduation-cap qualificacao__icon"></i> Formação acadêmica
+            <i className="uil uil-graduation-cap qualificacao__icon"></i> 
+              {t('qualificacao.qualificacao__buttonFormacao')}
           </div>
 
+           {/* title btn Experiência */}
           <div
             className={
               toggleState === 2
@@ -34,7 +41,8 @@ const Qualificacao = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <i className="uil uil-briefcase-alt qualificacao__icon"></i> Experiência
+            <i className="uil uil-briefcase-alt qualificacao__icon"></i> 
+              {t('qualificacao.qualificacao__buttonExperiencia')}
           </div>
         </div>
 
@@ -48,12 +56,18 @@ const Qualificacao = () => {
                 : "qualificacao__content"
             }
           >
+             {/* Análise e Dev de Sistemas - Instituto Federal  */}
             <div className="qualificacao__data">
               <div>
-                <h3 className="qualificacao__title">Análise e Dev de Sistemas</h3>
-                <span className="qualificacao__subtitle">Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP - São Paulo/SP</span>
+                <h3 className="qualificacao__title">
+                  {t('qualificacao.titleFormacaoAnáliseSistemas')}
+                </h3>
+                <span className="qualificacao__subtitle">
+                  {t('qualificacao.subtitleInstitutoFederal')}
+                </span>
                 <div className="qualificacao__calendar">
-                  <i className="uil uil-calendar-alt"></i> 09/2022 Até 07/2025 - Cursando
+                  <i className="uil uil-calendar-alt"></i> 
+                  {t('qualificacao.calendarFormacaoAnáliseSistemas')}
                 </div>
               </div>
 
@@ -62,7 +76,8 @@ const Qualificacao = () => {
                 <span className="qualificacao__line"></span>
               </div>
             </div>
-
+            
+            {/* Técnico em Informática - Senac Brasil  */}
             <div className="qualificacao__data">
                   <div></div>
 
@@ -72,21 +87,34 @@ const Qualificacao = () => {
                   </div>
 
                   <div>
-                    <h3 className="qualificacao__title">Técnico em Informática</h3>
-                    <span className="qualificacao__subtitle">Senac Brasil -<br />
-                    São Paulo/SP</span>
+                    <h3 className="qualificacao__title">
+                      {t('qualificacao.titleFormacaoTI')}
+                    </h3>
+                     {/* Unica maneira de quebra a linha */}
+                    <span className="qualificacao__subtitle">
+                      {t('qualificacao.subtitleSenacBrasil').split('\n').map((item, key) => 
+                        <React.Fragment key={key}>{item}<br/></React.Fragment>
+                      )}
+                    </span>
                     <div className="qualificacao__calendar">
-                      <i className="uil uil-calendar-alt"></i> 08/2020 Até 05/2022 - Completo
+                      <i className="uil uil-calendar-alt"></i> 
+                       {t('qualificacao.calendarFormacaoTI')}
                     </div>
                   </div>
             </div>
-
+            
+            {/* Ensino Médio - Escola Estadual Samuel  */}
             <div className="qualificacao__data">
               <div>
-                <h3 className="qualificacao__title">Ensino Médio</h3>
-                <span className="qualificacao__subtitle">Escola Estadual Samuel Wainer - São Paulo/SP</span>
+                <h3 className="qualificacao__title">
+                  {t('qualificacao.titleFormacaoEnsinoMedio')}
+                </h3>
+                <span className="qualificacao__subtitle">
+                  {t('qualificacao.subtitleEnsinoMedio')}
+                </span>
                 <div className="qualificacao__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2017 - Completo
+                  <i className="uil uil-calendar-alt"></i>
+                  {t('qualificacao.calendarFormacaoEnsinoMedio')} 
                 </div>
               </div>
 
@@ -105,13 +133,18 @@ const Qualificacao = () => {
                 : "qualificacao__content"
             }
           >
+            {/* Jovem Aprendiz Legal em Logística - Matéria Prima Farmácia  */}
             <div className="qualificacao__data">
               <div>
-                <h3 className="qualificacao__title">Jovem Aprendiz Legal em Logística</h3>
-                <span className="qualificacao__subtitle">Matéria Prima Farmácia de Manipulação Ltda -
-                São Paulo/SP</span>
+                <h3 className="qualificacao__title">
+                  {t('qualificacao.titleExperiênciaJVLogistica')}
+                </h3>
+                <span className="qualificacao__subtitle">
+                  {t('qualificacao.subtitleExperiênciaMateriaFarmacia')}
+                </span>
                 <div className="qualificacao__calendar">
-                  <i className="uil uil-calendar-alt"></i> 09/2019 Até 08/2020 - Completo
+                  <i className="uil uil-calendar-alt"></i> 
+                  {t('qualificacao.calendarExperiênciaJVLogistica')}
                 </div>
               </div>
 
@@ -121,6 +154,7 @@ const Qualificacao = () => {
               </div>
             </div>
 
+            {/* Jovem Aprendiz de Reposição - Akkí Atacadista */}
             <div className="qualificacao__data">
                   <div></div>
 
@@ -130,11 +164,18 @@ const Qualificacao = () => {
                   </div>
 
                   <div>
-                    <h3 className="qualificacao__title">Jovem Aprendiz de Reposição</h3>
-                    <span className="qualificacao__subtitle">Akkí Atacadista -<br />
-                    São Paulo/SP</span>
+                    <h3 className="qualificacao__title">
+                      {t('qualificacao.titleExperiênciaJVReposicao')}
+                    </h3>
+                    {/* Unica maneira de quebra a linha */}
+                    <span className="qualificacao__subtitle"> 
+                      {t('qualificacao.subtitleExperiênciaAkkiAtacadista').split('\n').map((item, key) => 
+                        <React.Fragment key={key}>{item}<br/></React.Fragment>
+                      )}
+                    </span>
                     <div className="qualificacao__calendar">
-                      <i className="uil uil-calendar-alt"></i> 07/2017 Até 06/2018 - Completo
+                      <i className="uil uil-calendar-alt"></i> 
+                      {t('qualificacao.calendarExperiênciaJVReposicao')}
                     </div>
                   </div>
             </div>

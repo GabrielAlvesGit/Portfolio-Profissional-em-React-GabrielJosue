@@ -3,14 +3,18 @@ import { useState } from "react";
 import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 import Projectsitems from "./Projectsitems";
+// Importar o i18n para traduzir o texto
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
   const [item, setItem] = useState({ name: "todos" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
+  // Importar o i18n para traduzir o texto
+  const {t} = useTranslation();
 
   useEffect(() => {
-    if (item.name === "todos") {
+    if (item.name === "todos" || !projectsNav.some(navItem => navItem.name === item.name)) {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
@@ -18,7 +22,7 @@ const Projects = () => {
       });
       setProjects(newProjects);
     }
-  }, [item]);
+  }, [item.name]);
 
   const handleClicked = (e, index) => {
     setItem({name: e.target.textContent.toLowerCase()});
@@ -28,19 +32,19 @@ const Projects = () => {
   return (
     <div>
       <div className="project__filters">
-        {projectsNav.map((navItem, index) => {
-          return (
-            <span
-              onClick={(e) => {
-                handleClicked(e, index);
-              }}
-              className={`${active === index ? "active-project" : ""} project__item`}
-              key={index}
-            >
-              {navItem.name}
-            </span>
-          );
-        })}
+      {projectsNav.map((navItem, index) => {
+      return (
+              <span
+                onClick={(e) => {
+                  handleClicked(e, index);
+                }}
+                className={`${active === index ? "active-project" : ""} project__item`}
+                key={index}
+              >
+                {t(`projectsNav.${navItem.name}`)}
+              </span>
+            );
+          })}
       </div>
 
       <div className="project__container container grid">

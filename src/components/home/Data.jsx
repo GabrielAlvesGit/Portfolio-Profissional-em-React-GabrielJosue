@@ -1,6 +1,10 @@
 import React from "react";
+// Importar o i18n para traduzir o texto
+import { useTranslation } from "react-i18next";
 
 const Data = () => {
+  // Importar o i18n para traduzir o texto
+  const {t} = useTranslation();
   return(
     <div className="home__data">
       <h1 className="home__title">Gabriel Josué Alves
@@ -54,8 +58,8 @@ const Data = () => {
                   ></path>
           </svg>
       </h1>
-      <h3 className="home__subtitle">Desenvolvedor Web | Design Visual</h3>
-      <p className="home__description"> I'm Creative designer based in Brasil, and i'm very passionate and dedicated to my work</p>
+      <h3 className="home__subtitle">{t('dataHome.subtitle')}</h3>
+      <p className="home__description">{t('dataHome.description')}</p>
 
       <a href="#contato" className="button button--flex">
         Say Hello

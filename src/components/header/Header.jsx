@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import "./header.css"
+// Importar o i18n para traduzir o texto
+import { useTranslation } from "react-i18next";
 
 const Header = () =>{
       /*=============== Change Backgroud Header  ===============*/   
@@ -15,8 +17,11 @@ const Header = () =>{
     /*=============== Toggle Menu ===============*/
     const[Toggle, showMenu] = useState(false);
     const[activeNav, setActiveNav] = useState("#home");
-    
+    // Importar o i18n para traduzir o texto
+    const {t} = useTranslation();
+
     return (
+      
           <header className="header">
               <nav className="nav container">
                   <a href="index.html" className="nav__logo">
@@ -40,7 +45,7 @@ const Header = () =>{
                               : "nav__link"
                             }
                           >
-                            <i className="uil uil-estate nav__icon"></i> Home
+                            <i className="uil uil-estate nav__icon"></i> {t('header.home')}
                           </a>
                       </li>
 
@@ -54,7 +59,7 @@ const Header = () =>{
                               : "nav__link"
                             }
                           > 
-                            <i className="uil uil-user nav__icon"></i> Sobre
+                            <i className="uil uil-user nav__icon"></i> {t('header.sobre')}
                           </a>
                       </li>
 
@@ -67,7 +72,7 @@ const Header = () =>{
                               : "nav__link"
                             }
                           > 
-                            <i className="uil uil-file-alt nav__icon"></i> Habilidades
+                            <i className="uil uil-file-alt nav__icon"></i> {t('header.habilidades')}
                           </a>
                       </li>
 
@@ -80,7 +85,7 @@ const Header = () =>{
                               : "nav__link"
                             }
                           > 
-                            <i className="uil uil-briefcase-alt nav__icon"></i> Projetos
+                            <i className="uil uil-briefcase-alt nav__icon"></i> {t('header.projetos')}
                           </a>
                       </li>
 
@@ -93,7 +98,7 @@ const Header = () =>{
                               : "nav__link"
                             }
                           >  
-                            <i className="uil uil-scenery nav__icon"></i> Rodapé
+                            <i className="uil uil-scenery nav__icon"></i> {t('header.rodapé')}
                           </a>
                       </li>
 
@@ -106,7 +111,7 @@ const Header = () =>{
                               : "nav__link"
                             }
                           > 
-                            <i className="uil uil-message nav__icon"></i> Contato
+                            <i className="uil uil-message nav__icon"></i> {t('header.contato')}
                           </a>
                       </li>
                     </ul>

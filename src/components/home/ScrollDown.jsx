@@ -1,6 +1,10 @@
 import React from "react";
+// Importar o i18n para traduzir o texto
+import { useTranslation } from "react-i18next";
 
 const ScrollDown = () => {
+  // Importar o i18n para traduzir o texto
+  const {t} = useTranslation();
   return (
     <div className="home__scroll">
       <a href="#sobre" className="home__scroll-button button--flex">
@@ -39,7 +43,7 @@ const ScrollDown = () => {
             }}
           ></path>
         </svg>
-          <span className="home__scroll-name">Deslize para Baixo</span>
+          <span className="home__scroll-name">{t('scrolllDownHome.scrollName')}</span>
           <i className="uil uil-arrow-down home__scroll-arrow"></i>
       </a>
     </div>

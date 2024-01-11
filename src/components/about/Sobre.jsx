@@ -3,22 +3,28 @@ import "./sobre.css"
 import Sobreimg from "../.././assets/sobre.jpg"
 import CV from "../.././assets/GabrielJosué-Cv.pdf"
 import Informacoes from "./Informacoes"
+import { useTranslation } from "react-i18next";
+
 
 const Sobre = () => {
+  // Tradução do site com i18n e react-i18next - Chamando o hook useTranslation "t" de Translation
+  const {t} = useTranslation();
+
     return (
        <section className="sobre section" id="sobre">
-          <h2 className="section__title" >Sobre mim</h2>
-          <span className="section__subtitle">Minha Apresentação</span>
+          <h2 className="section__title" >{t('sobre.title')}</h2>
+          <span className="section__subtitle">{t('sobre.subtitle')}</span>
 
           <div className="sobre__container container grid">
             <Informacoes />
 
               <div className="sobre__data">
 
-                  <p className="sobre__descricao">Frontend developer in the city of São Paulo, I create web pages with UI/UX user interface,
-                  I am currently studying Systems Analysis and Development - IFSP, seeking to improve both my “soft skills” and “hard skills”.
+                  {/* Descrição Sobre mim */}
+                  <p className="sobre__descricao">{t('sobre.descricao')}
                   </p>
 
+                   {/* Container de Skill - Html, Css, JavaScript */}
                   <div className="sobre__skillSetBox">
                     <i class='bx bxl-html5 sobre__iconskillSetBox html-icon'>HTML</i>
                     <i class='bx bxl-css3 sobre__iconskillSetBox css-icon'>CSS</i>
@@ -27,7 +33,8 @@ const Sobre = () => {
                     <i class='bx bxl-react sobre__iconskillSetBox react-icon'>React</i>
                     <i class='bx bxl-bootstrap sobre__iconskillSetBox bootstrap-icon'>Bootstrap</i>
                   </div>
-      
+                  
+                   {/* Botão de download do CV */}
                   <a download="" href={CV} className="buttonDowanload
                   button--flex"><span class="button-text">Download</span>
                   <div className="icon-container">

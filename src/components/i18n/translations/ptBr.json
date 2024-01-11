@@ -1,0 +1,195 @@
+{
+  "translation":{
+   
+    "__comment-header": "Past about - sobre.jsx",
+    "header": {
+      "home": "Home",
+      "sobre": "Sobre",
+      "habilidades": "Habilidades",
+      "projetos": "Projetos",
+      "rodapé": "Rodapé",
+      "contato": "Contato"
+    },
+
+    "__comment-dataHome": "Past home - data.jsx",
+    "dataHome": {
+      "subtitle": "Desenvolvedor Web | Design Visual",
+      "description": "Sou desenvolvedor e designer criativo, localizado no Brasil e sou muito apaixonado e dedicado ao meu trabalho"
+    },
+
+    "__comment-scrolllDownHome": "Past home - ScrolllDown.jsx",
+    "scrolllDownHome": {
+      "scrollName": "Deslize para Baixo"
+    },
+
+    "__comment-Sobre": "Past About - Sobre.jsx",
+    "sobre": {
+      "title": "Sobre Mim",
+      "subtitle": "Minha Apresentação",
+      "descricao": "Desenvolvedor Frontend na cidade de São Paulo, eu crio páginas web com interface de usuário (UI/UX), Atualmente, estou estudando Análise e Desenvolvimento de Sistemas - IFSP, buscando aprimorar tanto minhas “soft skills” quanto “hard skills”."
+    },
+
+    "__comment-Informacoes": "Past About - Informacoes.jsx",
+    "informacoes": {
+      "titleIFSP": "IFSP",
+      "subtitleIFSP": "Análise e Dev de Sistemas",
+      
+      "titleLocalizacao": "Localização",
+      "subtitleSP": "São Paulo/SP",
+
+      "titleSoftkillsI": "Soft kills",
+      "subtitleAprendizagem": "Aprendizagem",
+      "subtitleDesenvolvimento": "Desenvolvimento",
+      "subtitleAtitude": "Atitude",
+      "subtitlePrieValores": "Princípios e Valores"
+    },
+
+    "__comment-Habilidades": "Past Skills - Habilidades.jsx",
+    "habilidades": {
+      "title": "Habilidades Técnicas",
+      "subtitle": "Nível de proficiência técnica"
+    },
+
+    "__comment-Frontendhabilidades": "Past Skills - Frontend.jsx",
+    "frontendhabilidades": {
+      "title": "Frontend Desenvolvedor",
+      "levelBasico": "Básico",
+      "levelIntermediario": "Intermediário",
+      "levelAvancado": "Avançado"
+    },
+
+    "__comment-Backendhabilidades": "Past Skills - Backend.jsx",
+    "backendhabilidades": {
+      "title": "Backend Desenvolvedor",
+      "levelBasico": "Básico",
+      "levelIntermediario": "Intermediário",
+      "levelAvancado": "Avançado"
+    },
+
+    "__comment-Tecnologiashabilidades": "Past Skills - Tecnologias.jsx",
+    "tecnologiashabilidades": {            
+      "title": "Tecnologias",
+      "levelBasico": "Básico",
+      "levelIntermediario": "Intermediário",
+      "levelAvancado": "Avançado",
+      "titleEntreoutros": "Entre outros"
+    },
+    
+    "__comment-Project": "Past Skills - Project.jsx",
+    "project": {
+      "title": "Projetos",
+      "subtitle": "Meus recentes projetos"
+    },
+
+    "__comment-Projects": "Past Skills - Projectsitem.jsx e Data.jsx - Projects Obs: Poderias usar o ID mas estou saudno o title deles para facilitar a leitura",
+    "projects": {
+      "ingressoja": {
+        "title": "Ingressoja",
+        "description": "Site de eventos onde o usuário pode escolher um filme, peça, palestra de sua preferência - IFSP em 2023."
+      },
+      "ComenteSobre": {
+        "title": "ComenteSobre",
+        "description": "Sistema web que permite aos usuários comentarem sobre tópicos específicos semelhante a um fórum - IFSP em 2023."
+      },
+      "BusinessIA-PI": {
+        "title": "BusinessIA-PI",
+        "description": "Objetivo criar um website especializado para atender às necessidades da Business.IA, Inteligência Artificial e Análise de Dados, alinhadas com Estratégias de Marketing - IFSP em 2023."
+      },
+      "Ativa Investimentos": {
+        "title": "Ativa Investimentos",
+        "description": "Utilizei Vue.js e CSS para aprimorar meus conhecimentos, desenvolvendo uma clonagem da página da empresa Ativa Investimentos com o objetivo de estudo - em 2023."
+      },
+      "Calendário SUS": {
+        "title": "Calendário SUS",
+        "description": "Desafio do projeto foi desenvolver um calendário para atender os pacientes através do SUS com uma agenda online PI - Senac em 2022."
+      },
+      "Redes Sociais": {
+        "title": "Redes Sociais",
+        "description": "Portfólio redes sociais antes da existência de ferramentas como o Linktree e ChatGPT, preenchendo uma lacuna que essas ferramentas ocupam atualmente - Senac em 2022."
+      },
+      "Currículo Web": {
+        "title": "Currículo Web",
+        "description": "Desenvolvi meu primeiro projeto abrangente para consolidar meus conhecimentos adquiridos até agora em 2022 - Senac."
+      },
+      "codigo":"Código",
+      "visitePag":"Visite a Página"
+    },
+
+    "__comment-ProjectsNav": " Opção de navegação do projeto - Past Skills - Projects.jsx",
+    "projectsNav": {
+      "todos": "Todos",
+      "frontend": "Frontend",
+      "backend": "Backend"
+    },
+
+    "__comment-Qualificação": "Past qualificação - Qualificação.jsx",
+    "qualificacao": {
+      "title": "Qualificação",
+      "subtitle": "Jornada Acadêmica/Experiência",
+
+      "qualificacao__buttonFormacao": "Formação acadêmica",
+      "qualificacao__buttonExperiencia": "Experiência",
+      
+      "titleFormacaoAnáliseSistemas": "Análise e Dev de Sistemas",
+      "subtitleInstitutoFederal": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP - São Paulo/SP",
+      "calendarFormacaoAnáliseSistemas": " 09/2022 Até 07/2025 - Cursando",
+
+      "titleFormacaoTI": "Técnico em Informática",
+      "subtitleSenacBrasil": "Senac Brasil - \nSão Paulo/SP",
+      "calendarFormacaoTI": " 08/2020 Até 05/2022 - Completo",
+
+      "titleFormacaoEnsinoMedio": "Ensino Médio",
+      "subtitleEnsinoMedio": "Escola Estadual Samuel Wainer - São Paulo/SP",
+      "calendarFormacaoEnsinoMedio": " 2017 - Completo",
+
+      "titleExperiênciaJVLogistica": "Jovem Aprendiz Legal em Logística",
+      "subtitleExperiênciaMateriaFarmacia": "Matéria Prima Farmácia de Manipulação Ltda - São Paulo/SP",
+      "calendarExperiênciaJVLogistica": " 09/2019 Até 08/2020 - Completo",
+
+      "titleExperiênciaJVReposicao": "Jovem Aprendiz de Reposição",
+      "subtitleExperiênciaAkkiAtacadista": "Akkí Atacadista - \nSão Paulo/SP",
+      "calendarExperiênciaJVReposicao": " 07/2017 Até 06/2018 - Completo"
+    },
+
+    "__comment-Contato": "Past contact - Contato.jsx",
+    "contato": {
+      "title": "Entre em contato",
+      "subtitle": "Contata-me",
+
+      "titleFaleComigo": "Fale comigo",
+      "card-titleEmail": "Email",
+      "card-dataEmail": "gabrielalves.-100@hotmail.com",
+      "card-titleEnvieEmail": "Envie e-mail",
+
+      "titleWhatsapp": "Whatsapp",
+      "card-dataNum": "(11) 97806-4552",
+      "card-titleEnvieWhatsapp": "Envie Whatsapp",
+
+      "titleInstagram": "Instagram",
+      "card-dataIns": "@gabrielalves.s",
+      "card-titleEnvieInst": "Instagram",
+
+      "titleContatoViaEmail": "Contato via Email",
+      "labelForm-tagNome": "Nome",
+      "placeholderNome": "Insira seu nome",
+
+      "labelForm-tagEmail": "Email",
+      "placeholderEmail": "Insira seu email",
+
+      "labelForm-tagAssunto": "Assunto:",
+      "placeholderAssunto": "Escreva sobre o assunto",
+    
+      "buttonEnviarMensagem": "Enviar mensagem"
+    },
+
+    "__comment-Footer": "Past footer - Footer.jsx",
+    "footer": {
+      "sobre": "Sobre",
+      "projetos": "Projetos",
+      "contato": "Contato"
+    }
+
+  }
+  
+}
+

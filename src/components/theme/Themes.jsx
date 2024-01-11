@@ -4,6 +4,7 @@ import ThemeItem from "./ThemeItem";
 import {FaCog} from "react-icons/fa";
 import {BsMoon , BsSun}  from "react-icons/bs";
 import "./themes.css";
+import { LanguageSwitcher } from "../i18n/LanguageSwitcher";
 
 // Guarda armazenada no LocalStorage, retorna uma string vazia se não houver cor definida  
 const getStorageColor = () => {
@@ -51,8 +52,8 @@ const Themes =  () => {
   // Efeito colateral que atualiza a cor no CSS e armazena no LocalStorage
   useEffect(() => {
     // Atualiza a cor no CSS
-    document.documentElement.style.setProperty('--title-color', color);
-  
+    document.documentElement.style.setProperty('--title-color', color); 
+    //document.documentElement.style.setProperty('--border-bottom-switcher', `1px solid ${color}`);
     // Armazena a cor no LocalStorage
     localStorage.setItem('color', color);
   }, [color]);
@@ -93,7 +94,11 @@ const Themes =  () => {
           <div className="theme__toggler" onClick={togglerTheme}>
             {theme === 'light-theme' ? <BsMoon /> : <BsSun />}
           </div>
-
+          
+          <div className="theme_language" >
+            <LanguageSwitcher />
+          </div>
+          
           <h3 className="style__switcher-title">Style Switcher</h3>
           <div className="style__switcher-items">
             {themes.map((themes, index) => {
@@ -107,7 +112,9 @@ const Themes =  () => {
             onClick={() => setShowSwitcher (!showSwitcher)}
           >
             &times;</div>
+            
         </div>
+       
     </div>
   );
 };

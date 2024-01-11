@@ -1,10 +1,14 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contato.css';
+// Importar o i18n para traduzir o texto
+import { useTranslation } from "react-i18next";
 
 const Contato = () => {
   const form = useRef();
   const [emailError, setEmailError] = useState(false);
+   // Importar o i18n para traduzir o texto
+  const {t} = useTranslation();
 
   const validateEmail = (email) => {
     const pattern = /[a-z0-9._%+-]+@(hotmail|gmail|yahoo)\.[a-z]{2,}$/;
@@ -40,64 +44,90 @@ const Contato = () => {
   };
   return (
     <section className="contato section" id="contato">
-      <h2 className="section__title" >Entre em contato</h2>
-      <span className="section__subtitle">Contata-me</span>
+      <h2 className="section__title" >{t('contato.title')}</h2>
+      <span className="section__subtitle">{t('contato.subtitle')}</span>
 
       <div className="contato__container container grid">
         <div className="contato__content">
-          <h3 className="contato__title">Fale comigo</h3>
+          <h3 className="contato__title">
+            {t('contato.titleFaleComigo')}
+          </h3>
 
           <div className="contato__info">
             <div className="contato__card">
               <i className="bx bx-mail-send contato__card-icon"></i>
 
-              <h3 className="contato__card-title">Email</h3>
-              <span className="contato__card-data">gabrielalves.-100@hotmail.com</span>
-
-              <a href="mailto:gabrielalves.-100@gmail.com" className="contato__button">Envie e-mail {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
+              <h3 className="contato__card-title">
+                {t('contato.card-titleEmail')}
+              </h3>
+              <span className="contato__card-data">
+                {t('contato.card-dataEmail')}
+              </span>
+              
+              <a href="mailto:gabrielalves.-100@gmail.com" className="contato__button">
+                {t('contato.card-titleEnvieEmail')} {" "}
+                <i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
             </div>
 
             <div className="contato__card">
               <i className="bx bxl-whatsapp contato__card-icon"></i>
               
-              <h3 className="contato__card-title">Whatsapp</h3>
-              <span className="contato__card-data">(11) 97806-4552</span>
+              <h3 className="contato__card-title">
+                {t('contato.titleWhatsapp')}
+              </h3>
+              <span className="contato__card-data">
+                {t('contato.card-dataNum')}
+              </span>
 
-              <a href="https://wa.me/5511978064552" className="contato__button">Envie Whatsapp {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
+              <a href="https://wa.me/5511978064552" className="contato__button">
+                {t('contato.card-titleEnvieWhatsapp')}
+              {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
             </div>
 
             <div className="contato__card">
               <i className="bx bxl-instagram contato__card-icon"></i>
               
-              <h3 className="contato__card-title">Instagram</h3>
-              <span className="contato__card-data">@gabrielalves.s</span>
+              <h3 className="contato__card-title">
+                {t('contato.titleInstagram')}
+              </h3>
+              <span className="contato__card-data">
+                {t('contato.card-dataIns')}
+              </span>
 
-              <a href="https://www.instagram.com/gabrielalves.s" className="contato__button">Instagram {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
+              <a href="https://www.instagram.com/gabrielalves.s" className="contato__button">
+                {t('contato.card-titleEnvieInst')} 
+                {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
             </div>
 
           </div>
         </div>
 
         <div className="contato__content">
-          <h3 className="contato__title">Contato via Email</h3>
+          <h3 className="contato__title">
+            {t('contato.titleContatoViaEmail')}
+          </h3>
 
           <form ref={form} onSubmit={sendEmail} className="contato__form">
             <div className="contato__form-div">
-              <label className="contato__form-tag">Nome</label>
+              <label className="contato__form-tag">
+                {t('contato.labelForm-tagNome')}
+              </label>
               <input 
                 type="text" 
                 name="name" 
                 className="contato__form-input" 
-                placeholder="Insira seu nome"/>
+                placeholder={t('contato.placeholderNome')}/>
             </div>
 
             <div className={`contato__form-div ${emailError ? 'error-input' : ''}`}>
-              <label className="contato__form-tag">Email</label>
+              <label className="contato__form-tag">
+                {t('contato.labelForm-tagEmail')}
+              </label>
               <input
                 type="email"
                 name="email"
                 className="contato__form-input"
-                placeholder="Insira seu email"
+                placeholder={t('contato.placeholderEmail')}
                 onChange={handleEmailChange}
                 onBlur={handleBlur}
                 style={{
@@ -108,12 +138,15 @@ const Contato = () => {
             </div>
 
             <div className="contato__form-div contato__form-area">
-              <label className="contato__form-tag">Assunto:</label>
-              <textarea name="message" cols="30" rows="10" className="contato__form-input" placeholder="Escreva sobre o assunto"></textarea>
+              <label className="contato__form-tag">
+                {t('contato.labelForm-tagAssunto')}
+              </label>
+              <textarea name="message" cols="30" rows="10" className="contato__form-input" 
+              placeholder={t('contato.placeholderAssunto')}></textarea>
             </div>
 
             <button className="button button--flex">
-              Enviar mensagem
+              {t('contato.buttonEnviarMensagem')}
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

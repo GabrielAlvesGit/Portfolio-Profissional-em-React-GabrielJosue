@@ -66,6 +66,9 @@
 
     /* ========= Shadow Home img Perfil ========= */
     --box-shadow-home-img: inset 0 0 0 9px rgb(51 51 51/ 80%);
+
+    /* ========= Border Swit Perfil ========= */
+    --border-bottom-switcher: 1px solid #dedede;
 }
 
 /* Responsive typography */
