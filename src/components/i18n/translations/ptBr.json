@@ -187,8 +187,11 @@
       "sobre": "Sobre",
       "projetos": "Projetos",
       "contato": "Contato"
-    }
+    },
 
+    "__comment-Languagem": "Past Languagem - LanguagemSwitcher.jsx",
+    "selectYourLanguage": "Translate to English"
+    
   }
   
 }
