@@ -10,6 +10,7 @@ import Contato from "./components/contact/Contato";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Themes from "./components/theme/Themes";
+import Modal from "./components/Modal/Modal";
 
 const App = () => {
     return (
@@ -24,6 +25,7 @@ const App = () => {
                 <Project />
                 <Qualificacao />
                 <Contato />
+                <Modal />
             </main>
             <Footer />
             <ScrollUp />
