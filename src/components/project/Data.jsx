@@ -1,3 +1,14 @@
+import ProjectBiCity from "../../../src/assets/ingressoja.jpeg";  
+import ProjectAnalisededadosCOVID19 from "../../../src/assets/ingressoja.jpeg"; 
+import ProjectJavaScriptES6i from "../../../src/assets/ingressoja.jpeg"; 
+import ProjectAnimaisFantasticos from "../../../src/assets/ingressoja.jpeg"; 
+import ProjectCFBjQuerys from "../../../src/assets/ingressoja.jpeg"; 
+
+import ProjectCadastrodeProdutos from "../../../src/assets/project/CadastrodeProdutos.png"; 
+import ProjectRESTAPI from "../../../src/assets/project/RESTAPI.jpg"; 
+import ProjectHandel from "../../../src/assets/project/Handel.jpg"; 
+import ProjectSolarCalculator from "../../../src/assets/project/SolarCalculato.jpeg"; 
+import ProjectBikcraft from "../../../src/assets/project/Bikcraft.jpg"; 
 import Projectingressoja from "../../../src/assets/ingressoja.jpeg";  
 import ProjectComenteSobre from "../../../src/assets/ComenteSobre.jpeg";
 import ProjectBusinessIA from "../../../src/assets/BusinessIA.jpg";  
@@ -19,8 +30,100 @@ import Theme9 from '../../../src/assets/green.png';
 import Theme10 from '../../../src/assets/cancelarColor.svg';
 
 export const projectsData = [
-  {
+    {
     id: 1,
+    image: ProjectBiCity,
+    title: "BiCity",
+    category: "frontend",
+    codeLink:"https://github.com/GabrielAlvesGit/BiCity",
+    description: " ",
+    technologies: ["React Expo", "Tailwind", "TypeScript", "Java", "Spring Boot", "Swagger", "AWS", "EC2", "RDS", "MySQL", "Figma", "Trello", "Git" ],
+  },
+   {
+    id: 2,
+    image: ProjectCFBjQuerys,
+    title: "CFB jQuery",
+    category: "frontend",
+    codeLink:"https://github.com/GabrielAlvesGit/Curso-CFBCursos-jQuery",
+    description: " ",
+    technologies: ["HTML", "CSS", "JQuery"],
+  },
+   {
+    id: 3,
+    image: ProjectAnimaisFantasticos,
+    title: "Animais Fantasticos",
+    category: "frontend",
+    codeLink:"https://github.com/GabrielAlvesGit/Animais-Fantasticos",
+    description: " ",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+   {
+    id: 4,
+    image: ProjectJavaScriptES6i,
+    title: "JavaScript ES6i",
+    category: "frontend",
+    codeLink:"https://github.com/GabrielAlvesGit/Curso-Origamid-JavaScript-Completo-ES6id",
+    description: " ",
+    technologies: ["JavaScript"],
+  },
+    {
+    id: 5,
+    image: ProjectAnalisededadosCOVID19,
+    title: "Análise de dados COVID-19",
+    category: "backend",
+    codeLink:"https://github.com/GabrielAlvesGit/Analise-de-dados-COVID-19-impacto-na-vacinacao-e-nos-casos",
+    description: " ",
+    technologies: ["Python", "Bibliotecas de Graficos"],
+  },
+  {
+    id: 6,
+    image: ProjectCadastrodeProdutos,
+    title: "Cadastro de Produtos",
+    category: "backend",
+    codeLink:"https://github.com/GabrielAlvesGit/AvaliacaoII-PDWA5-CRUD",
+    description: " ",
+    technologies: ["HTML", "CSS", "PHP", "JavaScript", "BootStrap", "MySQL", "Xampp"],
+  },
+  {
+    id: 7,
+    image: ProjectRESTAPI,
+    title: "RESTAPI",
+    category: "backend",
+    codeLink:"https://github.com/GabrielAlvesGit/Curso-WordPress-Origam-REST-API",
+    description: " ",
+    technologies: [ "HTML", "CSS", "PHP"],
+  },
+  {
+    id: 8,
+    image: ProjectHandel,
+    title: "Handel",
+    category: "frontend",
+    pageLink: "https://handell-gabriel.wuaze.com/a/index.html",
+    codeLink:"https://github.com/GabrielAlvesGit/Curso-WordPress-Origamid-Handel",
+    description: " ",
+    technologies: ["SCSS", "JavaScript", "PHP",  "Plugins", "WordPress"],
+  },
+  {
+    id: 9,
+    image: ProjectSolarCalculator,
+    title: "Solar Calculator",
+    category: "backend",
+    pageLink: "https://drive.google.com/file/d/1Y3Ac-EbcJP2Q9TqsCuINo7XXH1ZZG95M/view?usp=sharing",
+    codeLink:"https://github.com/GabrielAlvesGit/Solar_Calculator",
+    description: " ",
+    technologies: ["Java"],
+  },
+  {
+    id: 10,
+    image: ProjectBikcraft,
+    title: "Bikcraft",
+    category: "frontend",
+    codeLink:"https://github.com/GabrielAlvesGit/Curso-WordPress-Origamid-Bikcraft",
+    description: " ",
+    technologies: ["CSS", "JavaScript", "PHP", "Plugins", "WordPress"],
+  },
+  {
+    id: 11,
     image: Projectingressoja,
     title: "ingressoja",
     category: "backend",
@@ -29,7 +132,7 @@ export const projectsData = [
     technologies: ["HTML", "CSS", "JavaScript", "Java", "MySQL"],
   },
   {
-    id: 2,
+    id: 12,
     image: ProjectComenteSobre,
     title: "ComenteSobre",
     category: "backend",
@@ -38,7 +141,7 @@ export const projectsData = [
     technologies: ["HTML", "CSS", "JavaScript", "SQLite", "Python", "Django", "Figma",  "Jira",],
   },
   {
-    id: 3,
+    id: 13,
     image: ProjectBusinessIA,
     title: "BusinessIA-PI",
     category: "frontend",
@@ -48,7 +151,7 @@ export const projectsData = [
     technologies: ["HTML","CSS", "JavaScript", "SQL"]
   },
   {
-    id: 4,
+    id: 14,
     image: ProjectAtivaInvestimentos,
     title: "Ativa Investimentos",
     category: "frontend",
@@ -58,7 +161,7 @@ export const projectsData = [
     technologies: ["HTML","CSS", "JavaScript", "Vue.js"]
   },
   {
-    id: 5,
+    id: 15,
     image: ProjectCalendarioSUS,
     title: "Calendário SUS",
     category: "backend",
@@ -68,7 +171,7 @@ export const projectsData = [
     technologies: ["HTML","CSS", "JavaScript", "PHP", "MySQL"]
   },
   {
-    id: 6,
+    id: 16,
     image: ProjectRedesSociais,
     title: "Redes Sociais",
     category: "frontend", 
@@ -78,7 +181,7 @@ export const projectsData = [
     technologies: ["HTML","CSS", "JavaScript"],
   },
   {
-    id: 7,
+    id: 17,
     image: ProjectCurrículoWeb,
     title: "Currículo Web",
     category: "frontend",
