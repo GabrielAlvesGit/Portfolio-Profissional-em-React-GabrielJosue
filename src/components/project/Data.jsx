@@ -1,9 +1,8 @@
-import ProjectBiCity from "../../../src/assets/ingressoja.jpeg";  
-import ProjectAnalisededadosCOVID19 from "../../../src/assets/ingressoja.jpeg"; 
-import ProjectJavaScriptES6i from "../../../src/assets/ingressoja.jpeg"; 
-import ProjectAnimaisFantasticos from "../../../src/assets/ingressoja.jpeg"; 
-import ProjectCFBjQuerys from "../../../src/assets/ingressoja.jpeg"; 
-
+import ProjectBiCity from "../../../src/assets/project/BiCity.png";  
+import ProjectCFBjQuerys from "../../../src/assets/project/CFBjQuerys.jpg"; 
+import ProjectAnimaisFantasticos from "../../../src/assets/project/AnimaisFantásticos.png"; 
+import ProjectJavaScriptES6i from "../../../src/assets/project/JavaScriptES6.webp"; 
+import ProjectAnalisededadosCOVID19 from "../../../src/assets/project/AnalisededadosCOVID19.png"; 
 import ProjectCadastrodeProdutos from "../../../src/assets/project/CadastrodeProdutos.png"; 
 import ProjectRESTAPI from "../../../src/assets/project/RESTAPI.jpg"; 
 import ProjectHandel from "../../../src/assets/project/Handel.jpg"; 
@@ -34,12 +33,12 @@ export const projectsData = [
     id: 1,
     image: ProjectBiCity,
     title: "BiCity",
-    category: "frontend",
+    category: "backend",
     codeLink:"https://github.com/GabrielAlvesGit/BiCity",
     description: " ",
     technologies: ["React Expo", "Tailwind", "TypeScript", "Java", "Spring Boot", "Swagger", "AWS", "EC2", "RDS", "MySQL", "Figma", "Trello", "Git" ],
   },
-   {
+  {
     id: 2,
     image: ProjectCFBjQuerys,
     title: "CFB jQuery",
@@ -48,32 +47,34 @@ export const projectsData = [
     description: " ",
     technologies: ["HTML", "CSS", "JQuery"],
   },
-   {
+  {
     id: 3,
     image: ProjectAnimaisFantasticos,
     title: "Animais Fantasticos",
     category: "frontend",
+    pageLink: "https://gabrielalvesgit.github.io/Animais-Fantasticos/",
     codeLink:"https://github.com/GabrielAlvesGit/Animais-Fantasticos",
     description: " ",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["HTML", "CSS", "JavaScript", "Modules"],
   },
-   {
+  {
     id: 4,
     image: ProjectJavaScriptES6i,
-    title: "JavaScript ES6i",
+    title: "JavaScript ES6+",
     category: "frontend",
     codeLink:"https://github.com/GabrielAlvesGit/Curso-Origamid-JavaScript-Completo-ES6id",
     description: " ",
     technologies: ["JavaScript"],
   },
-    {
+  {
     id: 5,
     image: ProjectAnalisededadosCOVID19,
     title: "Análise de dados COVID-19",
     category: "backend",
+    pageLink:"https://raw.githubusercontent.com/GabrielAlvesGit/Analise-de-dados-COVID-19-impacto-na-vacinacao-e-nos-casos/7d3bd222166bdccc06e1aa5f70f681fae9c19159/Trabalho Estatística.pdf",
     codeLink:"https://github.com/GabrielAlvesGit/Analise-de-dados-COVID-19-impacto-na-vacinacao-e-nos-casos",
     description: " ",
-    technologies: ["Python", "Bibliotecas de Graficos"],
+    technologies: ["Python", "Bibliotecas"],
   },
   {
     id: 6,
