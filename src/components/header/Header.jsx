@@ -25,7 +25,7 @@ const Header = () =>{
           <header className="header">
               <nav className="nav container">
                   <a href="index.html" className="nav__logo">
-                      <div class="logo-text">
+                      <div className="logo-text">
                         <tspan>&lt;</tspan> 
                         Alves  
                         <tspan>/</tspan> 
