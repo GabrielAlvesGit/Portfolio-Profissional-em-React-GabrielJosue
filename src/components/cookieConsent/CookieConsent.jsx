@@ -46,7 +46,7 @@ const CookieConsent = () => {
         <div class="style__switcher-close" onClick={handleDecline}>×</div>
 
         <p className="section__subtitle">
-           {t('cookieConsent.subtitle').split('\n').map((item, key) => <React.Fragment key={key}>{item}<br/></React.Fragment> )} <a className="cookieConsent__subtitle__sublink" href="/politica-de-privacidade" target="_blank" rel="noopener noreferrer">{t('cookieConsent.link')}</a>.
+           {t('cookieConsent.subtitle').split('\n').map((item, key) => <React.Fragment key={key}>{item}<br/></React.Fragment> )} <a className="cookieConsent__subtitle__sublink" href="/politica-de-privacidade" target="_blank" rel="noopener noreferrer">{t('cookieConsent.link')}</a>
         </p>
         <div className="buttons">
           <button className="button button--flex acceptButton" onClick={handleAccept}>
