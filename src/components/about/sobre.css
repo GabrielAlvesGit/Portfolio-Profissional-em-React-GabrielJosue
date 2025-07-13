@@ -119,8 +119,12 @@
     color: #61dafb;
 }
 
-.sobre__skillSetBox .bootstrap-icon:hover {
+/* .sobre__skillSetBox .bootstrap-icon:hover {
     color: #563d7c;
+} */
+
+.sobre__skillSetBox .php-icon:hover {
+    color: #4f5b93;
 }
 
 /* Box de Skill **ICONES  Skill Hards*** que estão com icones de hard skill perto do sobre mim*/

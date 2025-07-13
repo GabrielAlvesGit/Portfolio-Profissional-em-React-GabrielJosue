@@ -31,7 +31,7 @@ const Sobre = () => {
                     <i class='bx bxl-javascript sobre__iconskillSetBox javascript-icon'>JavaScript</i>
                     <i class='bx bxl-vuejs sobre__iconskillSetBox vuejs-icon'>Vue.js</i>
                     <i class='bx bxl-react sobre__iconskillSetBox react-icon'>React</i>
-                    <i class='bx bxl-bootstrap sobre__iconskillSetBox bootstrap-icon'>Bootstrap</i>
+                    <i class='bx bxl-php sobre__iconskillSetBox php-icon'>PHP</i>
                   </div>
                   
                    {/* Botão de download do CV */}
