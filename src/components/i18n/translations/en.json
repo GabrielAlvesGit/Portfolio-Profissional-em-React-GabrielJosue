@@ -83,6 +83,46 @@
 
     "__comment-Projects": "Past Skills - Projectsitem.jsx e Data.jsx - Projects Obs: Poderias usar o ID mas estou saudno o title deles para facilitar a leitura",
     "projects": {
+      "BiCity": {
+        "title": "BiCity",
+        "description": "BiCity application for cyclists in São Paulo, offering collective evaluation of the city's bike lanes and centralization of cycling-related events - IFSP 2025."
+      },
+      "CFB jQuery": {
+        "title": "CFB jQuery",
+        "description": "Project focused on learning jQuery, creating interactive web interfaces with dynamic element manipulation - CFB Cursos in 2025."
+      },
+      "Animais Fantasticos": {
+        "title": "Fantastic Animals",
+        "description": "Focused on web learning, displays information about animals, dynamic and responsive interface with animations - Origamid in 2025."
+      },
+      "JavaScript ES6+": {
+        "title": "JavaScript ES6+",
+        "description": "Focused on learning JavaScript ES6+, exploring modern concepts such as arrow functions, destructuring, modules, and async/await - Origamid in 2025."
+      },
+      "Análise de dados COVID-19": {
+        "title": "COVID-19 Data Analysis",
+        "description": "A data analysis on the impact of vaccination on reducing COVID-19 cases and deaths, to explore trends and patterns - IFSP in 2025."
+      },
+      "Cadastro de Produtos": {
+        "title": "Product Registration",
+        "description": "CRUD system for product registration, allowing creation, viewing, updating, and deletion of products in a database - IFSP in 2024."
+      },
+      "RESTAPI": {
+        "title": "REST API",
+        "description": "API to provide endpoints that enable integration and data manipulation in web applications - Origamid in 2024."
+      },
+      "Handel": {
+        "title": "Handel",
+        "description": "WordPress site for an online store, with plugin integration and advanced styling - Origamid in 2024."
+      },
+      "Solar Calculator": {
+        "title": "Solar Calculator",
+        "description": "A solar calculator designed to estimate solar energy generation based on specific parameters, offering a simple and functional interface, APK available in the links - IFSP in 2024."
+      },
+      "Bikcraft": {
+        "title": "Bikcraft",
+        "description": "WordPress site for a bicycle shop, with customized plugins, responsive design, and dynamic content management - Origamid in 2024."
+      },
       "ingressoja": {
         "title": "Ticket",
         "description": "Event website where users can choose a movie, play, or lecture of their preference - IFSP in 2023."
