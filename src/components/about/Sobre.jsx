@@ -22,7 +22,7 @@ const Sobre = () => {
 
                   {/* Descrição Sobre mim */}
                   <p className="sobre__descricao">{t('sobre.descricao')}  <br />
-                    <a href="#qualificacao" className="sobre__link">Veja minhas experiências.</a>
+                    <a href="#qualificacao" className="sobre__link">{t('sobre.link')}</a>
                   </p>
 
                    {/* Container de Skill - Html, Css, JavaScript */}

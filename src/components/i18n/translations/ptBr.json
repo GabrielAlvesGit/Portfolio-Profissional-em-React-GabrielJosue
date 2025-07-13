@@ -26,7 +26,8 @@
     "sobre": {
       "title": "Sobre Mim",
       "subtitle": "Minha Apresentação",
-      "descricao": "Desenvolvedor Frontend na cidade de São Paulo, eu crio páginas web com interface de usuário (UI/UX), Atualmente, estou estudando Análise e Desenvolvimento de Sistemas - IFSP, buscando aprimorar tanto minhas “soft skills” quanto “hard skills”."
+      "descricao": "Desenvolvedor Frontend na cidade de São Paulo, eu crio páginas web com interface de usuário (UI/UX), Atualmente, estou estudando Análise e Desenvolvimento de Sistemas - IFSP, buscando aprimorar tanto minhas “soft skills” quanto “hard skills”.",
+      "link": "Veja minhas experiências."
     },
 
     "__comment-Informacoes": "Past About - Informacoes.jsx",
@@ -183,13 +184,17 @@
       "subtitleEnsinoMedio": "Escola Estadual Samuel Wainer - São Paulo/SP",
       "calendarFormacaoEnsinoMedio": " 2017 - Completo",
 
+      "titleExperiênciaESFrontEnd": "Estagiário Front-End",
+      "subtitleExperiênciaMZGroup": "MZ Group - \nSão Paulo/SP \n\nHTML, CSS/SCSS, JavaScript, PHP, jQuery, WordPress e Trello.",
+      "calendarExperiênciaESFrontEnd": " 01/2024 Até 07/2025 \n(1 ano e 5 meses)",
+
       "titleExperiênciaJVLogistica": "Jovem Aprendiz Legal em Logística",
       "subtitleExperiênciaMateriaFarmacia": "Matéria Prima Farmácia de Manipulação Ltda - São Paulo/SP",
-      "calendarExperiênciaJVLogistica": " 09/2019 Até 08/2020 - Completo",
+      "calendarExperiênciaJVLogistica": " 09/2019 Até 08/2020 \n(1 ano)",
 
       "titleExperiênciaJVReposicao": "Jovem Aprendiz de Reposição",
       "subtitleExperiênciaAkkiAtacadista": "Akkí Atacadista - \nSão Paulo/SP",
-      "calendarExperiênciaJVReposicao": " 07/2017 Até 06/2018 - Completo"
+      "calendarExperiênciaJVReposicao": " 07/2017 Até 06/2018 \n(1 ano)"
     },
 
     "__comment-Contato": "Past contact - Contato.jsx",

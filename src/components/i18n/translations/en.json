@@ -26,7 +26,8 @@
     "sobre": {
       "title": "About Me",
       "subtitle": "My Presentation",
-      "descricao": "Frontend developer in the city of São Paulo, I create web pages with UI/UX user interface, I am currently studying Systems Analysis and Development - IFSP, seeking to improve both my “soft skills” and “hard skills”."
+      "descricao": "Frontend developer in the city of São Paulo, I create web pages with UI/UX user interface, I am currently studying Systems Analysis and Development - IFSP, seeking to improve both my “soft skills” and “hard skills”.",
+      "link": "See my experiences."
     },
 
     "__comment-informacoes": "Past About - Informacoes.jsx",
@@ -182,13 +183,18 @@
       "subtitleEnsinoMedio": "Samuel Wainer State School - São Paulo/SP",
       "calendarFormacaoEnsinoMedio": " 2017 - Completed",
 
+      
+      "titleExperiênciaESFrontEnd": "Front-End Intern",
+      "subtitleExperiênciaMZGroup": "MZ Group - \nSão Paulo/SP \n\nHTML, CSS/SCSS, JavaScript, PHP, jQuery, WordPress e Trello.",
+      "calendarExperiênciaESFrontEnd": " 01/2024 to 07/2025 \n(1 year and 5 months)",
+
       "titleExperiênciaJVLogistica": "Young Apprentice in Logistics",
       "subtitleExperiênciaMateriaFarmacia": "Material Prima Pharmacy de Manipulação Ltda - São Paulo/SP",
-      "calendarExperiênciaJVLogistica": " 09/2019 to 08/2020 - Completed",
+      "calendarExperiênciaJVLogistica": " 09/2019 to 08/2020 \n(1 year)",
 
       "titleExperiênciaJVReposicao": "Young Apprentice in Restocking",
       "subtitleExperiênciaAkkiAtacadista": "Akki Wholesale - \nSão Paulo/SP",
-      "calendarExperiênciaJVReposicao": " 07/2017 to 06/2018 - Completed"
+      "calendarExperiênciaJVReposicao": " 07/2017 to 06/2018 \n(1 year)"
     },
 
     "__comment-Contato": "Past contact - Contato.jsx",
