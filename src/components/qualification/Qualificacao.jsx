@@ -13,7 +13,7 @@ const Qualificacao = () => {
   };
 
   return (
-    <section className="qualificacao section" id="sobre">
+    <section className="qualificacao section" id="qualificacao">
       <h2 className="section__title">{t('qualificacao.title')}</h2>
       <span className="section__subtitle">{t('qualificacao.subtitle')}</span>
 

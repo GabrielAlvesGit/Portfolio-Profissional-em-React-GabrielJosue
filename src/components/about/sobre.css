@@ -17,7 +17,7 @@
 .sobre__informacoes {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
-    margin-bottom: 0.56rem;
+    margin-bottom: -1.44rem;
 }
 
 .sobre__informacoes > :nth-child(n + 3) {
@@ -167,6 +167,16 @@
     margin-bottom: 0.4rem;
     margin-top: -0.5rem;
 }
+
+.sobre__link {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
 /* ====================== Aquiiiiiii =====================*/
 .icon-container {
     position: relative;
