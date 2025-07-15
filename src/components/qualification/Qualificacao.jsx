@@ -13,7 +13,7 @@ const Qualificacao = () => {
   };
 
   return (
-    <section className="qualificacao section" id="sobre">
+    <section className="qualificacao section" id="qualificacao">
       <h2 className="section__title">{t('qualificacao.title')}</h2>
       <span className="section__subtitle">{t('qualificacao.subtitle')}</span>
 
@@ -133,6 +133,34 @@ const Qualificacao = () => {
                 : "qualificacao__content"
             }
           >
+
+            {/* Estagiário Front-End - MZ Group  */}
+            <div className="qualificacao__data">
+                  <div></div>
+
+                  <div>
+                    <span className="qualificacao__rounder"></span>
+                    <span className="qualificacao__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 className="qualificacao__title">
+                      {t('qualificacao.titleExperiênciaESFrontEnd')}
+                    </h3>
+                    {/* Unica maneira de quebra a linha */}
+                    <span className="qualificacao__subtitle"> 
+                      {t('qualificacao.subtitleExperiênciaMZGroup').split('\n').map((item, key) => 
+                        <React.Fragment key={key}>{item}<br/></React.Fragment>
+                      )}
+                    </span>
+                    <div className="qualificacao__calendar">
+                      <i className="uil uil-calendar-alt"></i> 
+                      {t('qualificacao.calendarExperiênciaESFrontEnd').split('\n').map((item, key) => 
+                        <React.Fragment key={key}>{item}<br/></React.Fragment> )}
+                    </div>
+                  </div>
+            </div>
+            
             {/* Jovem Aprendiz Legal em Logística - Matéria Prima Farmácia  */}
             <div className="qualificacao__data">
               <div>
@@ -175,7 +203,8 @@ const Qualificacao = () => {
                     </span>
                     <div className="qualificacao__calendar">
                       <i className="uil uil-calendar-alt"></i> 
-                      {t('qualificacao.calendarExperiênciaJVReposicao')}
+                      {t('qualificacao.calendarExperiênciaJVReposicao').split('\n').map((item, key) => 
+                        <React.Fragment key={key}>{item}<br/></React.Fragment> )}
                     </div>
                   </div>
             </div>

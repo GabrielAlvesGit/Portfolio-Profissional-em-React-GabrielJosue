@@ -26,7 +26,8 @@
     "sobre": {
       "title": "Sobre Mim",
       "subtitle": "Minha Apresentação",
-      "descricao": "Desenvolvedor Frontend na cidade de São Paulo, eu crio páginas web com interface de usuário (UI/UX), Atualmente, estou estudando Análise e Desenvolvimento de Sistemas - IFSP, buscando aprimorar tanto minhas “soft skills” quanto “hard skills”."
+      "descricao": "Desenvolvedor Frontend na cidade de São Paulo, eu crio páginas web com interface de usuário (UI/UX), Atualmente, estou estudando Análise e Desenvolvimento de Sistemas - IFSP, buscando aprimorar tanto minhas “soft skills” quanto “hard skills”.",
+      "link": "Veja minhas experiências."
     },
 
     "__comment-Informacoes": "Past About - Informacoes.jsx",
@@ -83,6 +84,47 @@
 
     "__comment-Projects": "Past Skills - Projectsitem.jsx e Data.jsx - Projects Obs: Poderias usar o ID mas estou saudno o title deles para facilitar a leitura",
     "projects": {
+      "BiCity": {
+        "title": "BiCity",
+        "description": "Aplicativo BiCity para ciclistas de São Paulo, oferecendo avaliação coletiva das ciclovias da cidade e centralização de eventos relacionados ao ciclismo - IFSP 2025."
+      },
+      "CFB jQuery": {
+        "title": "CFB jQuery",
+        "description": "Projeto focado no aprendizado de jQuery, criar interfaces web interativas com manipulação dinâmica de elementos - CFB Cursos em 2025."
+        
+      },
+      "Animais Fantasticos": {
+        "title": "Animais Fantasticos",
+        "description": "Focado no aprendizado de Web, mostra  informações sobre animais, interface dinâmica e responsiva com animações - Origamid em 2025."
+      },
+      "JavaScript ES6+": {
+        "title": "JavaScript ES6+",
+        "description": "Focado no aprendizado de JavaScript ES6+, explorando conceitos modernos como arrow functions, destructuring, modules e async/await - Origamid em 2025."
+      },
+      "Análise de dados COVID-19": {
+        "title": "Análise de dados COVID-19",
+        "description": "Uma análise de dados sobre o impacto da vacinação na redução de casos e óbitos por COVID-19,  para explorar tendências e padrões - IFSP em 2025."
+      },
+      "Cadastro de Produtos": {
+        "title": "Cadastro de Produtos",
+        "description": "Sistema CRUD para cadastro de produtos,  permitindo criar, visualizar, atualizar e excluir produtos em um banco de dados - IFSP em 2024."
+      },
+      "RESTAPI": {
+        "title": "REST API",
+        "description": "API para fornecer endpoints que permitem a integração e manipulação de dados em aplicações web - Origamid em 2024."
+      },
+      "Handel": {
+        "title": "Handel",
+        "description": "Site WordPress para uma loja virtual, integração de plugins e estilização avançadas - Origamid em 2024."
+      },
+      "Solar Calculator": {
+        "title": "Solar Calculator",
+        "description": "Uma calculadora solar, projetada para estimar a geração de energia solar com base em parâmetros específicos, oferecendo uma interface simples e funcional dexei o APK nos links - IFSP em 2024."
+      },
+      "Bikcraft": {
+        "title": "Bikcraft",
+        "description": "Site WordPress para uma loja de bicicletas, com plugins personalizados, design responsivo e gerenciamento dinâmico de conteúdo usando - Origamid em 2024."
+      },
       "ingressoja": {
         "title": "Ingressoja",
         "description": "Site de eventos onde o usuário pode escolher um filme, peça, palestra de sua preferência - IFSP em 2023."
@@ -142,13 +184,17 @@
       "subtitleEnsinoMedio": "Escola Estadual Samuel Wainer - São Paulo/SP",
       "calendarFormacaoEnsinoMedio": " 2017 - Completo",
 
+      "titleExperiênciaESFrontEnd": "Estagiário Front-End",
+      "subtitleExperiênciaMZGroup": "MZ Group - \nSão Paulo/SP \n\nHTML, CSS/SCSS, JavaScript, PHP, jQuery, WordPress e Trello.",
+      "calendarExperiênciaESFrontEnd": " 01/2024 Até 07/2025 \n(1 ano e 5 meses)",
+
       "titleExperiênciaJVLogistica": "Jovem Aprendiz Legal em Logística",
       "subtitleExperiênciaMateriaFarmacia": "Matéria Prima Farmácia de Manipulação Ltda - São Paulo/SP",
-      "calendarExperiênciaJVLogistica": " 09/2019 Até 08/2020 - Completo",
+      "calendarExperiênciaJVLogistica": " 09/2019 Até 08/2020 \n(1 ano)",
 
       "titleExperiênciaJVReposicao": "Jovem Aprendiz de Reposição",
       "subtitleExperiênciaAkkiAtacadista": "Akkí Atacadista - \nSão Paulo/SP",
-      "calendarExperiênciaJVReposicao": " 07/2017 Até 06/2018 - Completo"
+      "calendarExperiênciaJVReposicao": " 07/2017 Até 06/2018 \n(1 ano)"
     },
 
     "__comment-Contato": "Past contact - Contato.jsx",

@@ -17,7 +17,7 @@
 .sobre__informacoes {
     grid-template-columns: repeat(3, 140px);
     gap: 0.5rem;
-    margin-bottom: 0.56rem;
+    margin-bottom: -1.44rem;
 }
 
 .sobre__informacoes > :nth-child(n + 3) {
@@ -119,8 +119,12 @@
     color: #61dafb;
 }
 
-.sobre__skillSetBox .bootstrap-icon:hover {
+/* .sobre__skillSetBox .bootstrap-icon:hover {
     color: #563d7c;
+} */
+
+.sobre__skillSetBox .php-icon:hover {
+    color: #4f5b93;
 }
 
 /* Box de Skill **ICONES  Skill Hards*** que estão com icones de hard skill perto do sobre mim*/
@@ -163,6 +167,16 @@
     margin-bottom: 0.4rem;
     margin-top: -0.5rem;
 }
+
+.sobre__link {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
 /* ====================== Aquiiiiiii =====================*/
 .icon-container {
     position: relative;

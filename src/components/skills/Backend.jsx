@@ -34,7 +34,7 @@ const Backend = () => {
 
                 <div>
                   <h3 className="habilidades__name">PHP</h3>
-                  <span className="habilidades__level">{t('backendhabilidades.levelBasico')}</span>
+                  <span className="habilidades__level">{t('frontendhabilidades.levelIntermediario')}</span>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ const Backend = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                  <h3 className="habilidades__name">SQL</h3>
+                  <h3 className="habilidades__name">SQL/MySQL</h3>
                   <span className="habilidades__level">{t('backendhabilidades.levelIntermediario')}</span>
                 </div>
               </div>

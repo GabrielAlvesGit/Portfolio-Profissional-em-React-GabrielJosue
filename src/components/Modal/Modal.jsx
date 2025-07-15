@@ -21,7 +21,7 @@ const Modal = () => {
             </button>
             <h2 className="progress-modal__title">Atualizações no Portfolio</h2>
             <p className="progress-modal__subtitle">
-              Período - 12/07/2025 até 20/07/2025 (Fase 1)
+              Período - 12/07/2025 até 20/07/2025 (Fase 1/3)
             </p>
           </div>
           <div className="progress-modal__body">

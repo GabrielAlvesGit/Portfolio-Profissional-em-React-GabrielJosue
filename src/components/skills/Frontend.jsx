@@ -24,7 +24,7 @@ const Frontend = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                  <h3 className="habilidades__name">CSS</h3>
+                  <h3 className="habilidades__name">CSS/SCSS</h3>
                   <span className="habilidades__level">{t('frontendhabilidades.levelAvancado')}</span>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Frontend = () => {
 
                 <div>
                   <h3 className="habilidades__name">Git</h3>
-                  <span className="habilidades__level">{t('frontendhabilidades.levelBasico')}</span>
+                  <span className="habilidades__level">{t('frontendhabilidades.levelIntermediario')}</span>
                 </div>
               </div>
 
@@ -72,7 +72,7 @@ const Frontend = () => {
 
                 <div>
                   <h3 className="habilidades__name">React</h3>
-                  <span className="habilidades__level">{t('frontendhabilidades.levelBasico')}</span>
+                  <span className="habilidades__level">{t('frontendhabilidades.levelIntermediario')}</span>
                 </div>
               </div>
 
