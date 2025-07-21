@@ -26,7 +26,6 @@ const App = () => {
                 <Project />
                 <Qualificacao />
                 <Contato />
-                <Modal />
                 <CookieConsent />
             </main>
             <Footer />
