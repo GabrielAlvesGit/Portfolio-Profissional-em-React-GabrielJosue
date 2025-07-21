@@ -234,6 +234,15 @@
       "projetos": "Projetos",
       "contato": "Contato"
     },
+    
+    "__comment-cookieConsent": "Past footer - cookieConsent.jsx",
+    "cookieConsent": {
+      "title": "Política de Privacidade",
+      "subtitle": "Prezado Usuário,\n Antes de prosseguir para o portfolio, Ao clicar em 'Aceitar', você concorda com o armazenamento de cookies do seu dispositivo para melhorar a navegação e personalizar o conteúdo do nosso site. Acesse o link para saber mais:",
+      "link":"Política de Privacidade.",
+      "btnAccept": "Aceitar",
+      "btnDecline": "Recusar"
+    },
 
     "__comment-Languagem": "Past Languagem - LanguagemSwitcher.jsx",
     "selectYourLanguage": "Translate to English"

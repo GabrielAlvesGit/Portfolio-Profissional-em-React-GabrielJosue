@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Themes from "./components/theme/Themes";
 import Modal from "./components/Modal/Modal";
+import CookieConsent from "./components/cookieConsent/CookieConsent";
 
 const App = () => {
     return (
@@ -25,7 +26,7 @@ const App = () => {
                 <Project />
                 <Qualificacao />
                 <Contato />
-                <Modal />
+                <CookieConsent />
             </main>
             <Footer />
             <ScrollUp />

@@ -235,6 +235,15 @@
       "contato": "Contact"
     },
 
+    "__comment-cookieConsent": "Past footer - cookieConsent.jsx",
+    "cookieConsent": {
+      "title": "Privacy Policy",
+      "subtitle": "Dear User,\n Before proceeding to the portfolio, by clicking 'Accept', you agree to the storage of cookies on your device to improve navigation and personalize the content of our site. Visit the link to learn more:",
+      "link": "Privacy Policy.",
+      "btnAccept": "Accept",
+      "btnDecline": "Decline"
+    },
+
     "__comment-Languagem": "Past Languagem - LanguagemSwitcher.jsx",
     "selectYourLanguage": "Traduzir para Português"
   }
