@@ -14,7 +14,7 @@
     "__comment-dataHome": "Past home - data.jsx",
     "dataHome": {
       "subtitle": "Web Developer | Visual Design",
-      "description": "I'm Creative designer based in Brasil, and i'm very passionate and dedicated to my work"
+      "description": "I'm a front-end developer and creative designer, based in Brazil and I'm very passionate and dedicated to my work."
     },
 
     "__comment-scrolllDownHome": "Past home - ScrolllDown.jsx",
@@ -26,7 +26,9 @@
     "sobre": {
       "title": "About Me",
       "subtitle": "My Presentation",
-      "descricao": "Frontend developer in the city of São Paulo, I create web pages with UI/UX user interface, I am currently studying Systems Analysis and Development - IFSP, seeking to improve both my “soft skills” and “hard skills”.",
+       "descricao": "Front-end developer based in São Paulo, I'm passionate about creating intuitive and responsive web interfaces, with a focus on UI/UX.",
+      "descricao2": "Currently graduated in Systems Analysis and Development from IFSP (2022-2025).",
+      "descricao3": "I gained one year and five months of experience as a Front-end intern at MZ Group, where I developed dynamic solutions and honed my technical skills. I'm seeking new opportunities to continue developing my soft and hard skills.",
       "link": "See my experiences."
     },
 

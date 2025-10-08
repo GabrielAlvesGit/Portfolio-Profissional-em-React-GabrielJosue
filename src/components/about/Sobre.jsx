@@ -21,7 +21,7 @@ const Sobre = () => {
               <div className="sobre__data">
 
                   {/* Descrição Sobre mim */}
-                  <p className="sobre__descricao">{t('sobre.descricao')}  <br />
+                  <p className="sobre__descricao">{t('sobre.descricao')} <br /><br /> {t('sobre.descricao2')} <br /><br /> {t('sobre.descricao3')} <br />
                     <a href="#qualificacao" className="sobre__link">{t('sobre.link')}</a>
                   </p>
 

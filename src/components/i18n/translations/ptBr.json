@@ -14,7 +14,7 @@
     "__comment-dataHome": "Past home - data.jsx",
     "dataHome": {
       "subtitle": "Desenvolvedor Web | Design Visual",
-      "description": "Sou desenvolvedor e designer criativo, localizado no Brasil e sou muito apaixonado e dedicado ao meu trabalho"
+      "description": "Sou desenvolvedor front-end e designer criativo, localizado no Brasil e sou muito apaixonado e dedicado ao meu trabalho."
     },
 
     "__comment-scrolllDownHome": "Past home - ScrolllDown.jsx",
@@ -26,7 +26,9 @@
     "sobre": {
       "title": "Sobre Mim",
       "subtitle": "Minha Apresentação",
-      "descricao": "Desenvolvedor Frontend na cidade de São Paulo, eu crio páginas web com interface de usuário (UI/UX), Atualmente, estou estudando Análise e Desenvolvimento de Sistemas - IFSP, buscando aprimorar tanto minhas “soft skills” quanto “hard skills”.",
+      "descricao": "Desenvolvedor Front-end na cidade São Paulo, sou apaixonado por criar interfaces web intuitivas e responsivas, com foco em UI/UX.",
+      "descricao2": "Atualmente Formado em Análise e Desenvolvimento de Sistemas pelo IFSP (2022-2025).",
+      "descricao3": "Acumulei 1 ano e 5 meses de Experiência como estagiário Front-end na MZ Group, onde desenvolvi soluções dinâmicas e aprimorei minhas habilidades técnicas. Busco novas oportunidades para continuar evoluindo minhas “soft skills” e “hard skills”.",
       "link": "Veja minhas experiências."
     },
 
