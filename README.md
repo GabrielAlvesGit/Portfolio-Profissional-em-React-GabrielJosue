@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 <h1 align="center">
-  <a href="https://portfolio-profissional-em-react-gabriel-josue-boo1.vercel.app/">website view</a>
+  <a href="https://portfolio-profissional-em-react-gabriel-josue.vercel.app/">website view</a>
 </h1>
 
 ## 🔎 Instruções de Como usar
