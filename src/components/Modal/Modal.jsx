@@ -3,7 +3,7 @@ import './modal.css';
 
 const Modal = () => {
   const [openModal, setOpenModal] = useState(true);
-  const [progress, setProgress] = useState(50); 
+  const [progress] = useState(50); 
 
   if (!openModal) return null;
 

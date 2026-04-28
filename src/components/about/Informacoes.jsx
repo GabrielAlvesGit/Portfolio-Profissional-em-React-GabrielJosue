@@ -24,7 +24,6 @@ const Informacoes = () => {
       <div className="sobre__box">
         <span className="sobre__roman-number">I</span>
         <h3 className="sobre__title">Soft kills</h3>
-        <h3 className="sobre__title"></h3>
         <span className="sobre__subtitle">{t('informacoes.subtitleAprendizagem')}</span>
       </div>
 

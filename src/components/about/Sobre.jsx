@@ -1,6 +1,5 @@
 import React from "react";
 import "./sobre.css"
-import Sobreimg from "../.././assets/sobre.jpg"
 import CV from "../.././assets/GabrielJosué-Cv.pdf"
 import Informacoes from "./Informacoes"
 import { useTranslation } from "react-i18next";
