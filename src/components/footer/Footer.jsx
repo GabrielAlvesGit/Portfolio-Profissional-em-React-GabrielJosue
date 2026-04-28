@@ -32,21 +32,21 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
-          <a href="https://www.instagram.com/gabrielalves.s/" className="footer__social-link" target="_blank">
+          <a href="https://www.instagram.com/gabrielalves.s/" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-instagram"></i>
           </a>
 
-          <a href="https://gabrielalvesgit.github.io/Loading/" className="footer__social-link" target="_blank">
+          <a href="https://gabrielalvesgit.github.io/Loading/" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-dribbble"></i>
           </a>
 
-          <a href="https://github.com/GabrielAlvesGit" className="footer__social-link" target="_blank">
+          <a href="https://github.com/GabrielAlvesGit" className="footer__social-link" target="_blank" rel="noreferrer">
             <i className="bx bxl-github"></i>
             
           </a>
 
-          <a href="#" className="footer__social-link" target="_blank">
-            <i class='bx bxl-youtube'></i>
+          <a href="https://www.youtube.com/" className="footer__social-link" target="_blank" rel="noreferrer">
+            <i className="bx bxl-youtube"></i>
           </a>
         </div>
         <span className="footer__copy">
