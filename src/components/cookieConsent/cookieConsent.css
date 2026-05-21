@@ -9,6 +9,7 @@
     align-items: flex-end;
     width: 100%;
     height: 100%;
+    animation: cookieFadeIn 0.4s ease-out;
 }
 
 .content {
@@ -18,25 +19,47 @@
     padding: 2rem;
     border-radius: 0.4rem;
     width: 100%;
-    height: 34%;
+    height: 21%;
     text-align: center;
     box-shadow: -2px -1px 3px 0px #ffffff94;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    animation: cookieSlideUp 0.5s ease-out;
 }
 
-.content > .section__title {
+/*=============== ANIMAÇÃO (de baixo para cima) ===============*/
+@keyframes cookieSlideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes cookieFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.content>.section__title {
     font-size: 24px;
 }
 
-.content > .style__switcher-close {
+.content>.style__switcher-close {
     right: 12px;
     top: 9px;
     left: inherit;
 }
 
-.content > .section__subtitle {
+.content>.section__subtitle {
     margin-bottom: 0rem;
     font-size: var(--smaller-font-size);
 }
@@ -65,7 +88,7 @@
     align-items: center;
 }
 
-.buttons > .button {
+.buttons>.button {
     padding: 1.25rem 3rem;
     font-size: var(--small-font-size);
     width: 100%;

@@ -11,15 +11,27 @@ const CookieConsent = () => {
 
   useEffect(() => {
     const consent = localStorage.getItem('cookieConsent');
-    // Debugging
-    // console.log('Consentimento de cookies do localStorage:', consent);
-    
-    // Só esconde se foi aceito
-    if (consent !== 'accepted') {
-      setIsVisible(true);
-      // Debugging
-      // console.log('Setting isVisible to true');
-    }
+
+    // Se já foi aceito, não mostra novamente
+    if (consent === 'accepted') return;
+
+    const handleScroll = () => {
+      const scrolledToBottom =
+        window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 50;
+
+      // Só aparece quando o usuário rolar até o final da página
+      if (scrolledToBottom) {
+        setIsVisible(true);
+        window.removeEventListener('scroll', handleScroll);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    // Verifica logo de início (caso a página já esteja no final ou seja curta)
+    handleScroll();
+
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const handleAccept = () => {
