@@ -1,6 +1,5 @@
 {
-  "translation":{
-   
+  "translation": {
     "__comment-header": "Past about - sobre.jsx",
     "header": {
       "home": "Home",
@@ -10,49 +9,41 @@
       "rodapé": "Rodapé",
       "contato": "Contato"
     },
-
     "__comment-dataHome": "Past home - data.jsx",
     "dataHome": {
-      "subtitle": "Desenvolvedor Web | Design Visual",
-      "description": "Sou desenvolvedor front-end e designer criativo, localizado no Brasil e sou muito apaixonado e dedicado ao meu trabalho."
+      "subtitle": "Desenvolvedor Web | UI/UX",
+      "description": "Sou Desenvolvedor Front-end/Full Stack e designer criativo, localizado no Brasil e sou muito apaixonado e dedicado ao meu trabalho."
     },
-
     "__comment-scrolllDownHome": "Past home - ScrolllDown.jsx",
     "scrolllDownHome": {
       "scrollName": "Deslize para Baixo"
     },
-
     "__comment-Sobre": "Past About - Sobre.jsx",
     "sobre": {
       "title": "Sobre Mim",
       "subtitle": "Minha Apresentação",
       "descricao": "Desenvolvedor Front-end na cidade São Paulo, sou apaixonado por criar interfaces web intuitivas e responsivas, com foco em UI/UX.",
       "descricao2": "Atualmente Formado em Análise e Desenvolvimento de Sistemas pelo IFSP (2022-2025).",
-      "descricao3": "Acumulei 1 ano e 5 meses de Experiência como estagiário Front-end na MZ Group, onde desenvolvi soluções dinâmicas e aprimorei minhas habilidades técnicas. Busco novas oportunidades para continuar evoluindo minhas “soft skills” e “hard skills”.",
+      "descricao3": "Desenvolvedor Front End/Full Stack com mais de 2 anos de experiência, onde desenvolvi soluções dinâmicas e aprimorei minhas habilidades técnicas. Busco novas oportunidades para continuar evoluindo minhas “soft skills” e “hard skills”.",
       "link": "Veja minhas experiências."
     },
-
     "__comment-Informacoes": "Past About - Informacoes.jsx",
     "informacoes": {
       "titleIFSP": "IFSP",
       "subtitleIFSP": "Análise e Dev de Sistemas",
-      
       "titleLocalizacao": "Localização",
       "subtitleSP": "São Paulo/SP",
-
       "titleSoftkillsI": "Soft kills",
       "subtitleAprendizagem": "Aprendizagem",
       "subtitleDesenvolvimento": "Desenvolvimento",
       "subtitleAtitude": "Atitude",
       "subtitlePrieValores": "Princípios e Valores"
     },
-
     "__comment-Habilidades": "Past Skills - Habilidades.jsx",
     "habilidades": {
       "title": "Habilidades Técnicas",
       "subtitle": "Nível de proficiência técnica"
     },
-
     "__comment-Frontendhabilidades": "Past Skills - Frontend.jsx",
     "frontendhabilidades": {
       "title": "Frontend Desenvolvedor",
@@ -60,7 +51,6 @@
       "levelIntermediario": "Intermediário",
       "levelAvancado": "Avançado"
     },
-
     "__comment-Backendhabilidades": "Past Skills - Backend.jsx",
     "backendhabilidades": {
       "title": "Backend Desenvolvedor",
@@ -68,22 +58,19 @@
       "levelIntermediario": "Intermediário",
       "levelAvancado": "Avançado"
     },
-
     "__comment-Tecnologiashabilidades": "Past Skills - Tecnologias.jsx",
-    "tecnologiashabilidades": {            
+    "tecnologiashabilidades": {
       "title": "Tecnologias",
       "levelBasico": "Básico",
       "levelIntermediario": "Intermediário",
       "levelAvancado": "Avançado",
       "titleEntreoutros": "Entre outros"
     },
-    
     "__comment-Project": "Past Skills - Project.jsx",
     "project": {
       "title": "Projetos",
       "subtitle": "Meus recentes projetos"
     },
-
     "__comment-Projects": "Past Skills - Projectsitem.jsx e Data.jsx - Projects Obs: Poderias usar o ID mas estou saudno o title deles para facilitar a leitura",
     "projects": {
       "BiCity": {
@@ -93,7 +80,6 @@
       "CFB jQuery": {
         "title": "CFB jQuery",
         "description": "Projeto focado no aprendizado de jQuery, criar interfaces web interativas com manipulação dinâmica de elementos - CFB Cursos em 2025."
-        
       },
       "Animais Fantasticos": {
         "title": "Animais Fantasticos",
@@ -155,105 +141,81 @@
         "title": "Currículo Web",
         "description": "Desenvolvi meu primeiro projeto abrangente para consolidar meus conhecimentos adquiridos até agora em 2022 - Senac."
       },
-      "codigo":"Código",
-      "visitePag":"Visite a Página"
+      "codigo": "Código",
+      "visitePag": "Visite a Página"
     },
-
     "__comment-ProjectsNav": " Opção de navegação do projeto - Past Skills - Projects.jsx",
     "projectsNav": {
       "todos": "Todos",
       "frontend": "Frontend",
       "backend": "Backend"
     },
-
     "__comment-Qualificação": "Past qualificação - Qualificação.jsx",
     "qualificacao": {
       "title": "Qualificação",
       "subtitle": "Jornada Acadêmica/Experiência",
-
       "qualificacao__buttonFormacao": "Formação acadêmica",
       "qualificacao__buttonExperiencia": "Experiência",
-      
       "titleFormacaoAnáliseSistemas": "Análise e Dev de Sistemas",
       "subtitleInstitutoFederal": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP - São Paulo/SP",
       "calendarFormacaoAnáliseSistemas": " 09/2022 Até 07/2025 - Cursando",
-
       "titleFormacaoTI": "Técnico em Informática",
       "subtitleSenacBrasil": "Senac Brasil - \nSão Paulo/SP",
       "calendarFormacaoTI": " 08/2020 Até 05/2022 - Completo",
-
       "titleFormacaoEnsinoMedio": "Ensino Médio",
       "subtitleEnsinoMedio": "Escola Estadual Samuel Wainer - São Paulo/SP",
       "calendarFormacaoEnsinoMedio": " 2017 - Completo",
-
       "titleExperiênciaPJDesenvolvedorFullStack": "Desenvolvedor Full Stack",
       "subtitleExperiênciaReconecta": "Reconecta - \nSão Paulo/SP \n\nHTML, CSS, JavaScript/TypeScript, N8N, Framer, React, Node.js, banco de dados, Python, APIs, automações e IA.",
       "calendarExperiênciaPJDesenvolvedorFullStack": " 10/2025 Até 04/2026 \n(7 meses)",
-
       "titleExperiênciaESFrontEnd": "Estagiário Front-End",
       "subtitleExperiênciaMZGroup": "MZ Group - \nSão Paulo/SP \n\nHTML, CSS/SCSS, JavaScript, PHP, jQuery, WordPress e Trello.",
       "calendarExperiênciaESFrontEnd": " 01/2024 Até 07/2025 \n(1 ano e 5 meses)",
-
       "titleExperiênciaJVLogistica": "Jovem Aprendiz Legal em Logística",
       "subtitleExperiênciaMateriaFarmacia": "Matéria Prima Farmácia de Manipulação Ltda - São Paulo/SP",
       "calendarExperiênciaJVLogistica": " 09/2019 Até 08/2020 \n(1 ano)",
-
       "titleExperiênciaJVReposicao": "Jovem Aprendiz de Reposição",
       "subtitleExperiênciaAkkiAtacadista": "Akkí Atacadista - \nSão Paulo/SP",
       "calendarExperiênciaJVReposicao": " 07/2017 Até 06/2018 \n(1 ano)"
     },
-
     "__comment-Contato": "Past contact - Contato.jsx",
     "contato": {
       "title": "Entre em contato",
       "subtitle": "Contata-me",
-
       "titleFaleComigo": "Fale comigo",
       "card-titleEmail": "Email",
       "card-dataEmail": "gabrielalves.-100@hotmail.com",
       "card-titleEnvieEmail": "Envie e-mail",
-
       "titleWhatsapp": "Whatsapp",
       "card-dataNum": "(11) 97806-4552",
       "card-titleEnvieWhatsapp": "Envie Whatsapp",
-
       "titleInstagram": "Instagram",
       "card-dataIns": "@gabrielalves.s",
       "card-titleEnvieInst": "Instagram",
-
       "titleContatoViaEmail": "Contato via Email",
       "labelForm-tagNome": "Nome",
       "placeholderNome": "Insira seu nome",
-
       "labelForm-tagEmail": "Email",
       "placeholderEmail": "Insira seu email",
-
       "labelForm-tagAssunto": "Assunto:",
       "placeholderAssunto": "Escreva sobre o assunto",
-    
       "buttonEnviarMensagem": "Enviar mensagem"
     },
-
     "__comment-Footer": "Past footer - Footer.jsx",
     "footer": {
       "sobre": "Sobre",
       "projetos": "Projetos",
       "contato": "Contato"
     },
-    
     "__comment-cookieConsent": "Past footer - cookieConsent.jsx",
     "cookieConsent": {
       "title": "Política de Privacidade",
       "subtitle": "Prezado Usuário,\n Antes de prosseguir para o portfolio, Ao clicar em 'Aceitar', você concorda com o armazenamento de cookies do seu dispositivo para melhorar a navegação e personalizar o conteúdo do nosso site. Acesse o link para saber mais:",
-      "link":"Política de Privacidade.",
+      "link": "Política de Privacidade.",
       "btnAccept": "Aceitar",
       "btnDecline": "Recusar"
     },
-
     "__comment-Languagem": "Past Languagem - LanguagemSwitcher.jsx",
     "selectYourLanguage": "Translate to English"
-    
   }
-  
 }
-

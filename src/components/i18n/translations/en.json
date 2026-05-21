@@ -1,6 +1,5 @@
 {
-  "translation":{
-
+  "translation": {
     "__comment-header": "Past about - sobre.jsx",
     "header": {
       "home": "Home",
@@ -10,49 +9,41 @@
       "rodapé": "Footer",
       "contato": "Contact"
     },
-
     "__comment-dataHome": "Past home - data.jsx",
     "dataHome": {
-      "subtitle": "Web Developer | Visual Design",
-      "description": "I'm a front-end developer and creative designer, based in Brazil and I'm very passionate and dedicated to my work."
+      "subtitle": "Web Developer | UI/UX",
+      "description": "I am a Front-end/Full Stack Developer and creative designer located in Brazil, and I am very passionate and dedicated to my work."
     },
-
     "__comment-scrolllDownHome": "Past home - ScrolllDown.jsx",
     "scrolllDownHome": {
       "scrollName": "Scroll down"
     },
-
     "__comment-Sobre": "Past About - Sobre.jsx",
     "sobre": {
       "title": "About Me",
       "subtitle": "My Presentation",
-       "descricao": "Front-end developer based in São Paulo, I'm passionate about creating intuitive and responsive web interfaces, with a focus on UI/UX.",
+      "descricao": "Front-end developer based in São Paulo, I'm passionate about creating intuitive and responsive web interfaces, with a focus on UI/UX.",
       "descricao2": "Currently graduated in Systems Analysis and Development from IFSP (2022-2025).",
-      "descricao3": "I gained one year and five months of experience as a Front-end intern at MZ Group, where I developed dynamic solutions and honed my technical skills. I'm seeking new opportunities to continue developing my soft and hard skills.",
+      "descricao3": "Front-End/Full Stack Developer with over 2 years of experience, where I developed dynamic solutions and honed my technical skills. I am seeking new opportunities to continue developing my soft and hard skills.",
       "link": "See my experiences."
     },
-
     "__comment-informacoes": "Past About - Informacoes.jsx",
     "informacoes": {
       "titleIFSP": "IFSP",
       "subtitleIFSP": "Analysis and Systems Dev",
-      
       "titleLocalizacao": "Location",
       "subtitleSP": "São Paulo/SP",
-
       "titleSoftkillsI": "Soft kills",
       "subtitleAprendizagem": "Learning",
       "subtitleDesenvolvimento": "Development",
       "subtitleAtitude": "Attitude",
       "subtitlePrieValores": "Principles and Values"
     },
-
     "__comment-habilidades": "Past Skills - Habilidades.jsx",
     "habilidades": {
       "title": "Technical Skills",
       "subtitle": "Level of technical proficiency"
     },
-
     "__comment-Frontendhabilidades": "Past Skills - Frontend.jsx",
     "frontendhabilidades": {
       "title": "Frontend Developer",
@@ -60,7 +51,6 @@
       "levelIntermediario": "Intermediate",
       "levelAvancado": "Advanced"
     },
-
     "__comment-Backendhabilidades": "Past Skills - Backend.jsx",
     "backendhabilidades": {
       "title": "Backend Developer",
@@ -68,22 +58,19 @@
       "levelIntermediario": "Intermediate",
       "levelAvancado": "Advanced"
     },
-
     "__comment-Tecnologiashabilidades": "Past Skills - Tecnologias.jsx",
-    "tecnologiashabilidades": {            
+    "tecnologiashabilidades": {
       "title": "Technologies",
       "levelBasico": "Basic",
       "levelIntermediario": "Intermediate",
       "levelAvancado": "Advanced",
       "titleEntreoutros": "Among others"
     },
-
     "__comment-Project": "Past Skills - Project.jsx",
     "project": {
       "title": "Projects",
       "subtitle": "My recent projects"
     },
-
     "__comment-Projects": "Past Skills - Projectsitem.jsx e Data.jsx - Projects Obs: Poderias usar o ID mas estou saudno o title deles para facilitar a leitura",
     "projects": {
       "BiCity": {
@@ -154,92 +141,72 @@
         "title": "Web CV",
         "description": "I developed my first comprehensive project to consolidate my knowledge acquired so far in 2022 - Senac."
       },
-      "codigo":"Code",
-      "visitePag":"Visit the Page"
+      "codigo": "Code",
+      "visitePag": "Visit the Page"
     },
-
     "__comment-ProjectsNav": " Opção de navegação do projeto - Past Skills - Projects.jsx",
     "projectsNav": {
       "todos": "All",
       "frontend": "Frontend",
       "backend": "Backend"
     },
-
     "__comment-Qualificação": "Past qualificação - Qualificação.jsx",
     "qualificacao": {
       "title": "Qualification",
       "subtitle": "Academic Journey/Experience",
-
       "qualificacao__buttonFormacao": "Academic formation",
       "qualificacao__buttonExperiencia": "Experience",
-      
       "titleFormacaoAnáliseSistemas": "Analysis and Systems Dev",
       "subtitleInstitutoFederal": "Federal Institute of Education, Science, and Technology of São Paulo - IFSP - São Paulo/SP",
       "calendarFormacaoAnáliseSistemas": " 09/2022 to 07/2025 - In progress",
-
       "titleFormacaoTI": "Computer Technician",
       "subtitleSenacBrasil": "Senac Brazil - \nSão Paulo/SP",
       "calendarFormacaoTI": " 08/2020 to 05/2022 - Completed",
-
       "titleFormacaoEnsinoMedio": "High School",
       "subtitleEnsinoMedio": "Samuel Wainer State School - São Paulo/SP",
       "calendarFormacaoEnsinoMedio": " 2017 - Completed",
-
       "titleExperiênciaPJDesenvolvedorFullStack": "Full Stack Developer",
       "subtitleExperiênciaReconecta": "Reconecta - \nSão Paulo/SP \n\nHTML, CSS, JavaScript/TypeScript, N8N, Framer, React, Node.js, database, Python, APIs, automations and IA.",
       "calendarExperiênciaPJDesenvolvedorFullStack": " 10/2025 to 04/2026 \n(7 months)",
-
       "titleExperiênciaESFrontEnd": "Front-End Intern",
       "subtitleExperiênciaMZGroup": "MZ Group - \nSão Paulo/SP \n\nHTML, CSS/SCSS, JavaScript, PHP, jQuery, WordPress e Trello.",
       "calendarExperiênciaESFrontEnd": " 01/2024 to 07/2025 \n(1 year and 5 months)",
-
       "titleExperiênciaJVLogistica": "Young Apprentice in Logistics",
       "subtitleExperiênciaMateriaFarmacia": "Material Prima Pharmacy de Manipulação Ltda - São Paulo/SP",
       "calendarExperiênciaJVLogistica": " 09/2019 to 08/2020 \n(1 year)",
-
       "titleExperiênciaJVReposicao": "Young Apprentice in Restocking",
       "subtitleExperiênciaAkkiAtacadista": "Akki Wholesale - \nSão Paulo/SP",
       "calendarExperiênciaJVReposicao": " 07/2017 to 06/2018 \n(1 year)"
     },
-
     "__comment-Contato": "Past contact - Contato.jsx",
     "contato": {
       "title": "Get in touch",
       "subtitle": "Contact me",
-
       "titleFaleComigo": "Talk to me",
       "card-titleEmail": "Email",
       "card-dataEmail": "gabrielalves.-100@hotmail.com",
       "card-titleEnvieEmail": "Send email",
-
       "titleWhatsapp": "Whatsapp",
       "card-dataNum": "(11) 97806-4552",
       "card-titleEnvieWhatsapp": "Send Whatsapp",
-
       "titleInstagram": "Instagram",
       "card-dataIns": "@gabrielalves.s",
       "card-titleEnvieInst": "Instagram",
-
       "titleContatoViaEmail": "Contact by email",
       "labelForm-tagNome": "Name",
       "placeholderNome": "Insert your name",
-
       "labelForm-tagEmail": "Email",
       "placeholderEmail": "Insert your email",
-
       "labelForm-tagAssunto": "Subject:",
       "placeholderAssunto": "Write about the subject",
-    
       "buttonEnviarMensagem": "Send message"
     },
-
     "__comment-Footer": "Past footer - Footer.jsx",
     "footer": {
       "sobre": "About",
       "projetos": "Projects",
       "contato": "Contact"
     },
-
     "__comment-cookieConsent": "Past footer - cookieConsent.jsx",
     "cookieConsent": {
       "title": "Privacy Policy",
@@ -248,7 +215,6 @@
       "btnAccept": "Accept",
       "btnDecline": "Decline"
     },
-
     "__comment-Languagem": "Past Languagem - LanguagemSwitcher.jsx",
     "selectYourLanguage": "Traduzir para Português"
   }
