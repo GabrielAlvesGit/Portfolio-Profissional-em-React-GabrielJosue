@@ -34,3 +34,6 @@ $ npm start
 </pre>
 
 ## 💻 Layout React.js
+
+
+<img width="1920" height="911" alt="Portfólio-Gabriel-Josué-Alves-06-09-2026_12_40_PM" src="https://github.com/user-attachments/assets/35d827a3-f822-4b26-89fb-ed6d9bf139a4" />
