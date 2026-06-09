@@ -6,7 +6,6 @@
 
 ## 🔎 Instruções de Como usar
 
-
 <pre>
 # Certifique-se de ter o Node
 Terminal: node -v se não tiver ->
@@ -34,8 +33,4 @@ $ npm start
   http://localhost:3000/
 </pre>
 
-
 ## 💻 Layout React.js
-
-![image](https://github.com/GabrielAlvesGit/Portfolio-Profissional-em-React-GabrielJosue/assets/102634725/1cbe9d25-ed0a-4b84-b436-fd9d0829254b)
-

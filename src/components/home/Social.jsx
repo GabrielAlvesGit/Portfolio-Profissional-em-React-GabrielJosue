@@ -4,9 +4,9 @@ const Social = () => {
   return (
     /*============ Redes Sociais ============*/
     <div className="home__social">
-      <a href="https://www.instagram.com/gabrielalves.s/" className="home__social-icon" target="_blank" rel="noreferrer">
+      {/* <a href="https://www.instagram.com/gabrielalves.s/" className="home__social-icon" target="_blank" rel="noreferrer">
         <i className="uil uil-instagram"></i>
-      </a>
+      </a> */}
 
       <a href="https://gabrielalvesgit.github.io/Loading/" className="home__social-icon" target="_blank" rel="noreferrer">
         <i className="uil uil-dribbble"></i>

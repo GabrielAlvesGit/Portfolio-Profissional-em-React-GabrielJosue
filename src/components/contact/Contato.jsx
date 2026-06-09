@@ -84,7 +84,7 @@ const Contato = () => {
               {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
             </div>
 
-            <div className="contato__card">
+            {/* <div className="contato__card">
               <i className="bx bxl-instagram contato__card-icon"></i>
               
               <h3 className="contato__card-title">
@@ -97,7 +97,7 @@ const Contato = () => {
               <a href="https://www.instagram.com/gabrielalves.s" className="contato__button">
                 {t('contato.card-titleEnvieInst')} 
                 {" "}<i className="bx bx-right-arrow-alt contato__button-icon"></i></a>
-            </div>
+            </div> */}
 
           </div>
         </div>
