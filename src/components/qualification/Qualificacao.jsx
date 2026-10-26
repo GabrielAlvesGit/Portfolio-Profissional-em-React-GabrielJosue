@@ -134,7 +134,34 @@ const Qualificacao = () => {
             }
           >
 
-            {/* Jovem Aprendiz Legal em Logística - Matéria Prima Farmácia  */}
+             {/* Programador Junior - Mazukim  */}
+            <div className="qualificacao__data">
+                  <div></div>
+
+                  <div>
+                    <span className="qualificacao__rounder"></span>
+                    <span className="qualificacao__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 className="qualificacao__title">
+                      {t('qualificacao.titleExperiênciaPJProgramadorJunior')}
+                    </h3>
+                    {/* Unica maneira de quebra a linha */}
+                    <span className="qualificacao__subtitle"> 
+                      {t('qualificacao.subtitleExperiênciaMazukim').split('\n').map((item, key) => 
+                        <React.Fragment key={key}>{item}<br/></React.Fragment>
+                      )}
+                    </span>
+                    <div className="qualificacao__calendar">
+                      <i className="uil uil-calendar-alt"></i> 
+                      {t('qualificacao.calendarExperiênciaPJProgramadorJunior').split('\n').map((item, key) => 
+                        <React.Fragment key={key}>{item}<br/></React.Fragment> )}
+                    </div>
+                  </div>
+            </div>
+
+            {/* Desenvolvedor Full Stack - Reconecta  */}
             <div className="qualificacao__data">
               <div>
                 <h3 className="qualificacao__title">
