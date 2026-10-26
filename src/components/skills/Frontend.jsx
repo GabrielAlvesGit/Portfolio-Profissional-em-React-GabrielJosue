@@ -62,8 +62,8 @@ const Frontend = () => {
                 <i class='bx bx-badge-check'></i>
 
                 <div>
-                  <h3 className="habilidades__name">Angula</h3>
-                  <span className="habilidades__level">{t('frontendhabilidades.levelBasico')}</span>
+                  <h3 className="habilidades__name">WordPress</h3>
+                  <span className="habilidades__level">{t('frontendhabilidades.levelIntermediario')}</span>
                 </div>
               </div>
 
